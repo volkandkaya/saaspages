@@ -1,0 +1,148 @@
+[
+  {
+    "blockName": "Navbar",
+    "bestPractices": [
+      "Don't navigate them away from your funnel.",
+      "Have a CTA button such as 'Start Now'",
+      "Use a sticky bar it improves the visitors experience.",
+      "There are unique situations where you want to include extra links such as docs for developers."
+    ],
+    "examples": ["RelaHQ", "Socure", "SaltStack", "MailChimp"],
+    "content": []
+  },
+  {
+    "blockName": "Hero",
+    "bestPractices": [
+      "Boldy state your unique selling point.",
+      "Have a call to action such as 'Start Now'.",
+      "Use an image/video of your application or abstract art that shows value and/or makes it easier to understand the product.",
+      "Included your target audience in the the header or sub-header.",
+      "Avoid using off the page links unless it's part of the funnel."
+    ],
+    "examples": ["Socure", "Amplitude", "Termius", "Anaplan"],
+    "content": [
+      {
+        "href": "https://versoly.com",
+        "title": "How to create a sick landing page",
+        "author": "Versoly",
+        "img": {
+          "src": "https://uploads-ssl.webflow.com/5ba4b3c973b5d218459f7e6f/5c91cd5d8f811abd59dcd791_st_05_4x-p-1080.jpeg",
+          "alt": "Versoly Pricing",
+          "href": "https://versoly.com"
+        }
+      },
+      {
+        "href": "https://versoly.com",
+        "title": "How to create a sick landing page",
+        "author": "Versoly",
+        "img": {
+          "src": "https://uploads-ssl.webflow.com/5ba4b3c973b5d218459f7e6f/5c91cd5d8f811abd59dcd791_st_05_4x-p-1080.jpeg",
+          "alt": "Versoly Pricing",
+          "href": "https://versoly.com"
+        }
+      },
+      {
+        "href": "https://versoly.com",
+        "title": "How to create a sick landing page",
+        "author": "Versoly",
+        "img": {
+          "src": "https://uploads-ssl.webflow.com/5ba4b3c973b5d218459f7e6f/5c91cd5d8f811abd59dcd791_st_05_4x-p-1080.jpeg",
+          "alt": "Versoly Pricing",
+          "href": "https://versoly.com"
+        }
+      }
+    ]
+  },
+  {
+    "blockName": "Clients",
+    "bestPractices": [
+      "Use the most known logos you have.",
+      "Add metrics such as customers, companies or a unique property of your company.",
+      "Have a CTA to case studies if you have them."
+    ],
+    "examples": ["Box", "Groove", "Slack", "StackAdapt"],
+    "content": []
+  },
+  {
+    "blockName": "CTA",
+    "bestPractices": [
+      "Use action oriented words.",
+      "Use contrasting colors, make it stand out!",
+      "Don't use vague language such as try it out",
+      "Use language that invokes interest. E.g. 'Are you ready to do x' or 'See how it works'",
+      "Get quickly to the point with direct & compeling phrases.",
+      "Multiple CTA's can be used for each section"
+    ],
+    "examples": ["Shopify", "Postman", "DroneDeploy", "Gusto"],
+    "content": []
+  },
+  {
+    "blockName": "Features",
+    "bestPractices": [
+      "Use images/video with a header and concise explanation.",
+      "Use bullet points if the feature is too big to explain and add a link for a detailed explanation in case the visitor is interested.",
+      "Talk about how it will benefit your customer. Make it about your customer, not your product.",
+      "Explain how the visitor can use it."
+    ],
+    "examples": ["StackAdapt", "Cybsafe", "Shopify", "Exponea"],
+    "content": []
+  },
+  {
+    "blockName": "Team",
+    "bestPractices": [
+      "State your mission.",
+      "Ideally show all your employees.",
+      "Linkedin links for leadership roles can help build trust."
+    ],
+    "examples": ["Docker", "Fireblocks", "Cybsafe", "JustWorks"],
+    "content": []
+  },
+  {
+    "blockName": "Pricing",
+    "bestPractices": [
+      "Highlight the best benefits.",
+      "Experiment with pricing over time.",
+      "Offer only a few plans.",
+      "Add an FAQ to the pricing page.",
+      "Highlight the recommended plan",
+      "Make the CTA prominent in each plan",
+      "Offer discounts when offering monthly vs annual plans"
+    ],
+    "examples": ["Termius", "Drift", "Kissflow", "Rydoo"],
+    "content": []
+  },
+  {
+    "blockName": "FAQ",
+    "bestPractices": [
+      "Use the questions you get from customers and use their wording when possible.",
+      "Don't answer one big question. Divide it into multiple smaller ones",
+      "Remember to add simple questions that might seem obvious to you.",
+      "Showcase expertise.",
+      "Make it seem personalized"
+    ],
+    "examples": ["Gusto", "Intercom", "Stripe", "Zendesk"],
+    "content": []
+  },
+  {
+    "blockName": "Testimonials",
+    "bestPractices": [
+      "Use logos and/or faces",
+      "If using faces, tell your visitors who they are and what they do for credibility.",
+      "If you also have case studies to go along with the testimonials have a CTA that directs them there",
+      "Data and statistics can also be used such as how many customers use you."
+    ],
+    "examples": ["Asana", "GoodData", "Kissflow", "Xsellco"],
+    "content": []
+  },
+  {
+    "blockName": "Footer",
+    "bestPractices": [
+      "Use the footer to navigate to other parts of the site such as careers and blog.",
+      "Add relevant social links here.",
+      "Keep the design simple.",
+      "Included privacy policy and terms of service."
+    ],
+    "examples": ["Exponea", "Anvl", "JustWorks", "Xsellco"],
+    "content": []
+  }
+]
