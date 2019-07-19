@@ -26,6 +26,18 @@
     {
         "siteName": "AdobeXD",
         "date": "7-7-2019",
+        "blockName": "Features",
+        "imageName": "AdobeXD_Features_02"
+    },
+    {
+        "siteName": "AdobeXD",
+        "date": "7-7-2019",
+        "blockName": "Features",
+        "imageName": "AdobeXD_Features_03"
+    },
+    {
+        "siteName": "AdobeXD",
+        "date": "7-7-2019",
         "blockName": "Pricing",
         "imageName": "AdobeXD_Pricing_01"
     },
@@ -2088,64 +2100,64 @@
         "imageName": "Gusto_Footers_01"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Navbars",
-        "imageName": "HashiCorp_Navbars_01"
+        "imageName": "HashCorp_Navbars_01"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Headers",
-        "imageName": "HashiCorp_Headers_01"
+        "imageName": "HashCorp_Headers_01"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "CTA",
-        "imageName": "HashiCorp_CTA_01"
+        "imageName": "HashCorp_CTA_01"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Features",
-        "imageName": "HashiCorp_Features_01"
+        "imageName": "HashCorp_Features_01"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Features",
-        "imageName": "HashiCorp_Features_02"
+        "imageName": "HashCorp_Features_02"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Features",
-        "imageName": "HashiCorp_Features_03"
+        "imageName": "HashCorp_Features_03"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Features",
-        "imageName": "HashiCorp_Features_04"
+        "imageName": "HashCorp_Features_04"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Pricing",
-        "imageName": "HashiCorp_Pricing_01"
+        "imageName": "HashCorp_Pricing_01"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Testimonials",
-        "imageName": "HashiCorp_Testimonials_01"
+        "imageName": "HashCorp_Testimonials_01"
     },
     {
-        "siteName": "HashiCorp",
+        "siteName": "HashCorp",
         "date": "7-7-2019",
         "blockName": "Footers",
-        "imageName": "HashiCorp_Footers_01"
+        "imageName": "HashCorp_Footers_01"
     },
     {
         "siteName": "HelloSign",
@@ -3440,14 +3452,14 @@
     {
         "siteName": "Pipefy",
         "date": "7-7-2019",
-        "blockName": "Navbars",
-        "imageName": "Pipefy_Navbars_02"
+        "blockName": "Headers",
+        "imageName": "Pipefy_Headers_01"
     },
     {
         "siteName": "Pipefy",
         "date": "7-7-2019",
-        "blockName": "Headers",
-        "imageName": "Pipefy_Headers_01"
+        "blockName": "Clients",
+        "imageName": "Pipefy_Clients_01"
     },
     {
         "siteName": "Pipefy",
