@@ -1,1 +1,1507 @@
-[{"siteName":"AdobeXD","url":"https://www.adobe.com/products/xd.html"},{"siteName":"AeroLeads","url":"https://aeroleads.com"},{"siteName":"Algolia","url":"https://www.algolia.com"},{"siteName":"Amplitude","url":"https://amplitude.com"},{"siteName":"Anaplan","url":"https://www.anaplan.com"},{"siteName":"Anvl","url":"https://anvl.com"},{"siteName":"AppSumo","url":"https://appsumo.com"},{"siteName":"Asana","url":"https://asana.com/"},{"siteName":"Atlassian","url":"https://www.atlassian.com"},{"siteName":"BirdEye","url":"https://birdeye.com"},{"siteName":"Box","url":"https://box.com"},{"siteName":"Celonis","url":"https://www.celonis.com"},{"siteName":"ChargeBee","url":"https://www.chargebee.com"},{"siteName":"CircleCI","url":"https://circleci.com"},{"siteName":"ClearBit","url":"https://clearbit.com"},{"siteName":"CloudFlare","url":"https://www.cloudflare.com"},{"siteName":"CollectiveHealth","url":"https://collectivehealth.com"},{"siteName":"CompStak","url":"https://compstak.com"},{"siteName":"ContentSquare","url":"https://contentsquare.com"},{"siteName":"CoreView","url":"https://www.coreview.com"},{"siteName":"Cybsafe","url":"https://www.cybsafe.com"},{"siteName":"Docker","url":"https://www.docker.com"},{"siteName":"Drift","url":"https://www.drift.com"},{"siteName":"DroneDeploy","url":"https://www.dronedeploy.com"},{"siteName":"Dropbox","url":"https://www.dropbox.com/"},{"siteName":"Everactive","url":"https://everactive.com"},{"siteName":"Exponea","url":"https://exponea.com"},{"siteName":"Fireblocks","url":"https://www.fireblocks.com"},{"siteName":"FramerX","url":"https://www.framer.com"},{"siteName":"FreshDesk","url":"https://freshdesk.com/"},{"siteName":"FreshService","url":"https://freshservice.com/"},{"siteName":"FreshTeam","url":"https://www.freshworks.com/hrms/"},{"siteName":"Funnel","url":"https://funnel.io"},{"siteName":"Gather","url":"https://www.gatherhere.com"},{"siteName":"GitPrime","url":"https://www.gitprime.com"},{"siteName":"Gitlab","url":"https://gitlab.com"},{"siteName":"GoodData","url":"https://www.gooddata.com"},{"siteName":"Groove","url":"https://www.groovehq.com"},{"siteName":"Gusto","url":"https://gusto.com"},{"siteName":"HashiCorp","url":"https://www.hashicorp.com"},{"siteName":"HelloSign","url":"https://www.hellosign.com"},{"siteName":"Hootsuite","url":"https://hootsuite.com"},{"siteName":"Hotjar","url":"https://www.hotjar.com"},{"siteName":"Hubspot","url":"https://www.hubspot.com"},{"siteName":"InVision","url":"https://www.invisionapp.com"},{"siteName":"Intercom","url":"https://www.intercom.com"},{"siteName":"Iterable","url":"https://iterable.com"},{"siteName":"JustWorks","url":"https://justworks.com"},{"siteName":"Kissflow","url":"https://kissflow.com"},{"siteName":"LeanData","url":"https://www.leandatainc.com"},{"siteName":"LogicMonitor","url":"https://www.logicmonitor.com"},{"siteName":"Logikcull","url":"https://www.logikcull.com"},{"siteName":"Looker","url":"https://looker.com"},{"siteName":"MailChimp","url":"https://mailchimp.com"},{"siteName":"MailerLite","url":"https://www.mailerlite.com"},{"siteName":"MariaDB","url":"https://mariadb.com"},{"siteName":"Marketo","url":"https://www.marketo.com"},{"siteName":"MeisterTask","url":"https://www.meistertask.com/"},{"siteName":"Moengage","url":"https://www.moengage.com"},{"siteName":"Monday","url":"https://monday.com/"},{"siteName":"NewRelic","url":"https://newrelic.com"},{"siteName":"Officevibe","url":"https://www.officevibe.com"},{"siteName":"Optimove","url":"https://www.optimove.com"},{"siteName":"PatriotSoftware","url":"https://www.patriotsoftware.com"},{"siteName":"Pipefy","url":"https://www.pipefy.com/"},{"siteName":"Planplex","url":"https://www.planplex.com"},{"siteName":"Plivo","url":"https://www.plivo.com"},{"siteName":"Postman","url":"https://www.getpostman.com"},{"siteName":"Quickbooks","url":"https://quickbooks.intuit.com/"},{"siteName":"RelaHQ","url":"https://www.relahq.com"},{"siteName":"Repsly","url":"https://www.repsly.com"},{"siteName":"Roomsy","url":"https://www.roomsy.com"},{"siteName":"RouteHappy","url":"https://www.routehappy.com"},{"siteName":"Rydoo","url":"https://www.rydoo.com/"},{"siteName":"Salesforce","url":"https://www.salesforce.com"},{"siteName":"SaltStack","url":"https://www.saltstack.com"},{"siteName":"Sendinblue","url":"https://www.sendinblue.com"},{"siteName":"ServiceTitan","url":"https://www.servicetitan.com"},{"siteName":"Shopify","url":"https://www.shopify.com"},{"siteName":"SimpleLegal","url":"https://www.simplelegal.com"},{"siteName":"Simpo","url":"https://www.simpo.io"},{"siteName":"Sisense","url":"https://www.sisense.com"},{"siteName":"Slack","url":"https://slack.com"},{"siteName":"Socure","url":"https://www.socure.com"},{"siteName":"StackAdapt","url":"https://www.stackadapt.com"},{"siteName":"Streak","url":"https://www.streak.com"},{"siteName":"Stripe","url":"https://stripe.com"},{"siteName":"Tableau","url":"https://www.tableau.com"},{"siteName":"Talentlms","url":"https://www.talentlms.com"},{"siteName":"Teem","url":"https://www.teem.com"},{"siteName":"Termius","url":"https://termius.com"},{"siteName":"Twilio","url":"https://www.twilio.com"},{"siteName":"UltimateSoftwareGroup","url":"https://www.ultimatesoftware.com"},{"siteName":"Upfluence","url":"https://upfluence.com"},{"siteName":"Veeva","url":"https://www.veeva.com"},{"siteName":"Workday","url":"https://www.workday.com"},{"siteName":"Xsellco","url":"https://www.xsellco.com"},{"siteName":"Zendesk","url":"https://www.zendesk.com"},{"siteName":"ZohoBooks","url":"https://www.zoho.com/books/"}]
+[
+  {
+    "siteName": "AdobeXD",
+    "url": "https://www.adobe.com/products/xd.html",
+    "colors": [
+      "#a2aca7",
+      "#a86763",
+      "#cedd4a",
+      "#077dbb",
+      "#01a4ef",
+      "#1ea563",
+      "#41afc6",
+      "#5755b6",
+      "#636efe",
+      "#cad77f"
+    ]
+  },
+  {
+    "siteName": "AeroLeads",
+    "url": "https://aeroleads.com",
+    "colors": [
+      "#56c98e",
+      "#6430bc",
+      "#afb0af",
+      "#924ef2",
+      "#1972f5",
+      "#4581b7",
+      "#55abe6",
+      "#635de1",
+      "#8ab9dd",
+      "#9b4d38"
+    ]
+  },
+  {
+    "siteName": "Algolia",
+    "url": "https://www.algolia.com",
+    "colors": [
+      "#5467ff",
+      "#e0001a",
+      "#ffba92",
+      "#5d87d0",
+      "#6341a6",
+      "#a27594",
+      "#cd9597",
+      "#1028b2",
+      "#237bbd",
+      "#79bbfc"
+    ]
+  },
+  {
+    "siteName": "Amplitude",
+    "url": "https://amplitude.com",
+    "colors": [
+      "#007fd2",
+      "#ff7643",
+      "#2c5ca2",
+      "#4187d1",
+      "#56adef",
+      "#88c5ec",
+      "#a2592c",
+      "#a7745a",
+      "#c89e73",
+      "#ffb906"
+    ]
+  },
+  {
+    "siteName": "Anaplan",
+    "url": "https://www.anaplan.com",
+    "colors": [
+      "#a2a2a2",
+      "#63709b",
+      "#e40081",
+      "#0677b4",
+      "#34bcac",
+      "#9c8577",
+      "#ab1e80",
+      "#ed5ead"
+    ]
+  },
+  {
+    "siteName": "Anvl",
+    "url": "https://anvl.com",
+    "colors": [
+      "#3b6cf4",
+      "#fcba06",
+      "#89ace6",
+      "#546ba2",
+      "#8e94b1",
+      "#015bd8",
+      "#2dba83",
+      "#c47b52",
+      "#c5a9a6",
+      "#d47104"
+    ]
+  },
+  {
+    "siteName": "AppSumo",
+    "url": "https://appsumo.com",
+    "colors": [
+      "#523ccb",
+      "#fbb231",
+      "#0093f8",
+      "#899c9d",
+      "#f2ba75",
+      "#2c5dac",
+      "#3b83fe",
+      "#a69de3",
+      "#c07847",
+      "#bfa7b3"
+    ]
+  },
+  {
+    "siteName": "Asana",
+    "url": "https://asana.com/",
+    "colors": [
+      "#71aad5",
+      "#acb5bb",
+      "#06caff",
+      "#0073de",
+      "#796eff",
+      "#ff7381",
+      "#1b5eb0",
+      "#1ba6d8",
+      "#4bc4b0",
+      "#64749e"
+    ]
+  },
+  {
+    "siteName": "Atlassian",
+    "url": "https://www.atlassian.com",
+    "colors": [
+      "#0154cf",
+      "#2684ff",
+      "#79e2f2",
+      "#00adcd",
+      "#4752cc",
+      "#5e86b4",
+      "#ffbb7f",
+      "#009c6f",
+      "#2d8dc9",
+      "#30cfe8"
+    ]
+  },
+  {
+    "siteName": "BirdEye",
+    "url": "https://birdeye.com",
+    "colors": [
+      "#1f94f2",
+      "#ffa006",
+      "#88c5f2",
+      "#ffcc33",
+      "#4caf50",
+      "#8993a4",
+      "#ff5965",
+      "#55a8fe",
+      "#9ad19c"
+    ]
+  },
+  {
+    "siteName": "Box",
+    "url": "https://box.com",
+    "colors": [
+      "#0061ff",
+      "#8f4da4",
+      "#a60f33",
+      "#df86bc",
+      "#1127a7",
+      "#4d99d8",
+      "#5d7c9f",
+      "#61339e",
+      "#739e3f",
+      "#7ca2c2"
+    ]
+  },
+  {
+    "siteName": "Celonis",
+    "url": "https://www.celonis.com",
+    "colors": [
+      "#00e501",
+      "#c515cc",
+      "#ff0105",
+      "#10caad",
+      "#b063cc",
+      "#ff7006",
+      "#a3519c",
+      "#c7412f",
+      "#d2803c",
+      "#ff1b41"
+    ]
+  },
+  {
+    "siteName": "ChargeBee",
+    "url": "https://www.chargebee.com",
+    "colors": [
+      "#65469b",
+      "#7464c3",
+      "#af5b7b",
+      "#91929a",
+      "#e96f9a",
+      "#b2b3b9",
+      "#d6a85b",
+      "#ff7846"
+    ]
+  },
+  {
+    "siteName": "CircleCI",
+    "url": "https://circleci.com",
+    "colors": [
+      "#19aa50",
+      "#279fb5",
+      "#32c6df",
+      "#499b70",
+      "#9e9e9e",
+      "#bf7230",
+      "#1829a3",
+      "#3c71d2",
+      "#60a5df",
+      "#5fba46"
+    ]
+  },
+  {
+    "siteName": "ClearBit",
+    "url": "https://clearbit.com",
+    "colors": [
+      "#3c87cb",
+      "#00a4e6",
+      "#f89396",
+      "#61c1f6",
+      "#78a2d3",
+      "#76e3c1",
+      "#f67f05"
+    ]
+  },
+  {
+    "siteName": "CloudFlare",
+    "url": "https://www.cloudflare.com",
+    "colors": [
+      "#7fc7bd",
+      "#7d91c4",
+      "#f48120",
+      "#aa77b1",
+      "#c5804b",
+      "#fabd66",
+      "#8accf2",
+      "#ce9d7e"
+    ]
+  },
+  {
+    "siteName": "CollectiveHealth",
+    "url": "https://collectivehealth.com",
+    "colors": [
+      "#a37e59",
+      "#b1652e",
+      "#10bad4",
+      "#3273bd",
+      "#4f9cde",
+      "#989994",
+      "#a82a2f",
+      "#d2b08c",
+      "#d89145"
+    ]
+  },
+  {
+    "siteName": "CompStak",
+    "url": "https://compstak.com",
+    "colors": [
+      "#3a85f2",
+      "#d2353f",
+      "#2e5ea5",
+      "#5d91ba",
+      "#7bb5ea",
+      "#9181b9",
+      "#9b8577",
+      "#a7b8c2",
+      "#c8a47d",
+      "#f0a0aa"
+    ]
+  },
+  {
+    "siteName": "ContentSquare",
+    "url": "https://contentsquare.com",
+    "colors": [
+      "#4a89e6",
+      "#2463be",
+      "#87919d",
+      "#fdbe3b",
+      "#a1901e",
+      "#fe4a67",
+      "#789bce",
+      "#89aefc",
+      "#5cc6ff",
+      "#77b93b"
+    ]
+  },
+  {
+    "siteName": "CoreView",
+    "url": "https://www.coreview.com",
+    "colors": [
+      "#498fe1",
+      "#00aff0",
+      "#5558af",
+      "#b1b2b1",
+      "#70b9f2",
+      "#d28b48",
+      "#ffbf71"
+    ]
+  },
+  {
+    "siteName": "Cybsafe",
+    "url": "https://www.cybsafe.com",
+    "colors": [
+      "#5c9a96",
+      "#e8d87d",
+      "#b7b3b5",
+      "#449cfd",
+      "#9d89a1"
+    ]
+  },
+  {
+    "siteName": "Docker",
+    "url": "https://www.docker.com",
+    "colors": [
+      "#3aa1ef",
+      "#a9d26a",
+      "#007bff",
+      "#81ae4e",
+      "#0060a2",
+      "#67bcfb",
+      "#9b9289",
+      "#b2b3ad",
+      "#317db9",
+      "#56b6bd"
+    ]
+  },
+  {
+    "siteName": "Drift",
+    "url": "https://www.drift.com",
+    "colors": [
+      "#ed208f",
+      "#9a9a9a",
+      "#14cb6e",
+      "#fab485",
+      "#2060a9",
+      "#4093db",
+      "#a3503a",
+      "#ce7e2a",
+      "#d3895d",
+      "#f3de47"
+    ]
+  },
+  {
+    "siteName": "DroneDeploy",
+    "url": "https://www.dronedeploy.com",
+    "colors": [
+      "#1f95f3",
+      "#6eb5f1",
+      "#4167b0",
+      "#a1abbd",
+      "#1dabbe",
+      "#8080bc",
+      "#a2982f",
+      "#b08a6e",
+      "#439b78",
+      "#4f8ed5"
+    ]
+  },
+  {
+    "siteName": "Dropbox",
+    "url": "https://www.dropbox.com/",
+    "colors": [
+      "#0061ff",
+      "#8f4da4",
+      "#a60f33",
+      "#df86bc",
+      "#1127a7",
+      "#4d99d8",
+      "#5d7c9f",
+      "#61339e",
+      "#739e3f",
+      "#7ca2c2"
+    ]
+  },
+  {
+    "siteName": "Everactive",
+    "url": "https://everactive.com",
+    "colors": [
+      "#b98467",
+      "#0273a8",
+      "#11b073",
+      "#3c92e2",
+      "#4bd3f0",
+      "#677baa",
+      "#80a8bf",
+      "#b6af9f",
+      "#dea57b"
+    ]
+  },
+  {
+    "siteName": "Exponea",
+    "url": "https://exponea.com",
+    "colors": [
+      "#ffd505",
+      "#007dc6",
+      "#6a7fe3",
+      "#8241d5",
+      "#a58a0e",
+      "#b2b1ad",
+      "#2963b4",
+      "#371a9e",
+      "#6cbaf8",
+      "#756b99"
+    ]
+  },
+  {
+    "siteName": "Fireblocks",
+    "url": "https://www.fireblocks.com",
+    "colors": [
+      "#66bbf8",
+      "#ff5205",
+      "#175eb2",
+      "#8c9099",
+      "#ba7d4f"
+    ]
+  },
+  {
+    "siteName": "FramerX",
+    "url": "https://www.framer.com",
+    "colors": [
+      "#286ffa",
+      "#3b27f8",
+      "#82c0ff",
+      "#0099ff",
+      "#a1a1a1",
+      "#0045a0",
+      "#1670c8",
+      "#47c6f7",
+      "#6798c0",
+      "#8380f8"
+    ]
+  },
+  {
+    "siteName": "FreshDesk",
+    "url": "https://freshdesk.com/",
+    "colors": [
+      "#24c16f",
+      "#9f9f9f",
+      "#aa90df",
+      "#009933",
+      "#08c7fb",
+      "#1a83c8",
+      "#4343a7",
+      "#666a99",
+      "#619bd6",
+      "#88cedd"
+    ]
+  },
+  {
+    "siteName": "FreshService",
+    "url": "https://freshservice.com/",
+    "colors": [
+      "#08c7fb",
+      "#a7a7a7",
+      "#d9984c",
+      "#0060ac",
+      "#4c70a1",
+      "#55b255",
+      "#57c7fb",
+      "#7172e9",
+      "#70a27f",
+      "#7ab3c8"
+    ]
+  },
+  {
+    "siteName": "FreshTeam",
+    "url": "https://www.freshworks.com/hrms/",
+    "colors": [
+      "#4990e2",
+      "#ff5969",
+      "#5270a1",
+      "#7398b5",
+      "#a7a8a7",
+      "#b37552",
+      "#db4144",
+      "#ff8985",
+      "#ffbc8f"
+    ]
+  },
+  {
+    "siteName": "Funnel",
+    "url": "https://funnel.io",
+    "colors": [
+      "#5ffdd4",
+      "#fd385b",
+      "#ffb74d",
+      "#00a4f6",
+      "#fc6f84",
+      "#9e9c9b",
+      "#d28f64",
+      "#1bc9bc",
+      "#4079b9",
+      "#4285f4"
+    ]
+  },
+  {
+    "siteName": "Gather",
+    "url": "https://www.gatherhere.com",
+    "colors": [
+      "#4babe8",
+      "#7088a4",
+      "#72cff4",
+      "#bca065",
+      "#bdb1a1",
+      "#0759b7",
+      "#2892bd",
+      "#4765a6",
+      "#6fbfbf",
+      "#90bc8d"
+    ]
+  },
+  {
+    "siteName": "GitPrime",
+    "url": "https://www.gitprime.com",
+    "colors": [
+      "#6ceecb",
+      "#f37554",
+      "#3b5adb",
+      "#2784ff",
+      "#0089d6",
+      "#8785ab",
+      "#9b7f7a",
+      "#b2a3b4",
+      "#e0a292",
+      "#075dac"
+    ]
+  },
+  {
+    "siteName": "Gitlab",
+    "url": "https://gitlab.com",
+    "colors": [
+      "#6b4fba",
+      "#b2b2b2",
+      "#01b29b",
+      "#296aed",
+      "#36c5cc",
+      "#6ec9f7",
+      "#7bafcd",
+      "#7d7cd4",
+      "#9b5bad",
+      "#a26f41"
+    ]
+  },
+  {
+    "siteName": "GoodData",
+    "url": "https://www.gooddata.com",
+    "colors": [
+      "#0175b3",
+      "#99acb3",
+      "#b93798",
+      "#c63e5c",
+      "#6691a0",
+      "#71c2f8",
+      "#85b372",
+      "#a57b58",
+      "#cfa58b"
+    ]
+  },
+  {
+    "siteName": "Groove",
+    "url": "https://www.groovehq.com",
+    "colors": [
+      "#4873d1",
+      "#0b9fbf",
+      "#f1845f",
+      "#8d84dc",
+      "#7e8e9e",
+      "#df4843",
+      "#01be8f",
+      "#5b50ff",
+      "#34ace1",
+      "#3ab194"
+    ]
+  },
+  {
+    "siteName": "Gusto",
+    "url": "https://gusto.com",
+    "colors": [
+      "#f45c47",
+      "#a6b1b0",
+      "#9e5425",
+      "#be5a4d"
+    ]
+  },
+  {
+    "siteName": "HashiCorp",
+    "url": "https://www.hashicorp.com",
+    "colors": [
+      "#1b90fc",
+      "#5c4ee5",
+      "#029a66",
+      "#a6a7a6",
+      "#ff0005",
+      "#034ea8",
+      "#432ea7",
+      "#6696fd",
+      "#8bd9be",
+      "#a92064"
+    ]
+  },
+  {
+    "siteName": "HelloSign",
+    "url": "https://www.hellosign.com",
+    "colors": [
+      "#86d092",
+      "#00b3e6",
+      "#5177a0",
+      "#7f95a8",
+      "#2f74c8",
+      "#39c6ed",
+      "#9f4f1b",
+      "#ae7c8c"
+    ]
+  },
+  {
+    "siteName": "Hootsuite",
+    "url": "https://hootsuite.com",
+    "colors": [
+      "#13bedd",
+      "#00f9e5",
+      "#a4a8a8",
+      "#80d2ca",
+      "#577eb6",
+      "#5ce7fb",
+      "#6bb6f2",
+      "#89c502",
+      "#9a755e",
+      "#a4d068"
+    ]
+  },
+  {
+    "siteName": "Hotjar",
+    "url": "https://www.hotjar.com",
+    "colors": [
+      "#5ffdd4",
+      "#fd385b",
+      "#ffb74d",
+      "#00a4f6",
+      "#fc6f84",
+      "#9e9c9b",
+      "#d28f64",
+      "#1bc9bc",
+      "#4079b9",
+      "#4285f4"
+    ]
+  },
+  {
+    "siteName": "Hubspot",
+    "url": "https://www.hubspot.com",
+    "colors": [
+      "#ff8f58",
+      "#00acb4",
+      "#f1547c",
+      "#949fa9",
+      "#4b87c0",
+      "#65d7c9",
+      "#8ec4e2",
+      "#a59677",
+      "#d8a187"
+    ]
+  },
+  {
+    "siteName": "InVision",
+    "url": "https://www.invisionapp.com",
+    "colors": [
+      "#ff3265",
+      "#a39c7d",
+      "#575bb0",
+      "#b0b1b0",
+      "#ff8aa6"
+    ]
+  },
+  {
+    "siteName": "Intercom",
+    "url": "https://www.intercom.com",
+    "colors": [
+      "#6afdef",
+      "#5266f5",
+      "#f3c032",
+      "#00499a",
+      "#1e79bb",
+      "#3ed4ef",
+      "#4a9edc",
+      "#6afdb5",
+      "#81b4ae",
+      "#9e4502"
+    ]
+  },
+  {
+    "siteName": "Iterable",
+    "url": "https://iterable.com",
+    "colors": [
+      "#8a92a5",
+      "#fca109",
+      "#4d9edf",
+      "#546a9c",
+      "#b27c4a",
+      "#c4b817",
+      "#433899",
+      "#3ea45f",
+      "#81469a",
+      "#9070e1"
+    ]
+  },
+  {
+    "siteName": "JustWorks",
+    "url": "https://justworks.com",
+    "colors": [
+      "#1e87fa",
+      "#006ccf",
+      "#eb5353",
+      "#4783bf",
+      "#b6040d",
+      "#255ea1",
+      "#5c9df9",
+      "#6c8299",
+      "#89ace6",
+      "#a17e82"
+    ]
+  },
+  {
+    "siteName": "Kissflow",
+    "url": "https://kissflow.com",
+    "colors": [
+      "#0465ff",
+      "#ffa28e",
+      "#97989b",
+      "#b64203",
+      "#a11f77",
+      "#d241a5",
+      "#04379a",
+      "#00a6e8",
+      "#4872a4",
+      "#72a5ff"
+    ]
+  },
+  {
+    "siteName": "LeanData",
+    "url": "https://www.leandatainc.com",
+    "colors": [
+      "#2db570",
+      "#42529e",
+      "#7de7d4",
+      "#2ac1a6",
+      "#2254f4",
+      "#62afb5",
+      "#7e659d",
+      "#f58220",
+      "#f6da39"
+    ]
+  },
+  {
+    "siteName": "LogicMonitor",
+    "url": "https://www.logicmonitor.com",
+    "colors": [
+      "#00b2ab",
+      "#0070f2",
+      "#0054b5",
+      "#7fbaff",
+      "#82ad4e",
+      "#ed1e24",
+      "#7f9bb4",
+      "#3d7ed8",
+      "#5177a3",
+      "#b0a3a1"
+    ]
+  },
+  {
+    "siteName": "Logikcull",
+    "url": "https://www.logikcull.com",
+    "colors": [
+      "#4b85a0",
+      "#00aa88",
+      "#6ab1d3",
+      "#70e8dd",
+      "#a0a0a1",
+      "#00dfad",
+      "#0993b5"
+    ]
+  },
+  {
+    "siteName": "Looker",
+    "url": "https://looker.com",
+    "colors": [
+      "#592ec1",
+      "#fa4067",
+      "#7998ac",
+      "#4177bd",
+      "#b1389d",
+      "#b18275",
+      "#74bfff",
+      "#99bacf",
+      "#b8672f",
+      "#e5a353"
+    ]
+  },
+  {
+    "siteName": "MailChimp",
+    "url": "https://mailchimp.com",
+    "colors": [
+      "#ffdf1b",
+      "#8fbd19",
+      "#c4aa18",
+      "#c3cd76",
+      "#0080a3",
+      "#3f6db1",
+      "#993f10",
+      "#9a8814",
+      "#9a959c",
+      "#ad6658"
+    ]
+  },
+  {
+    "siteName": "MailerLite",
+    "url": "https://www.mailerlite.com",
+    "colors": [
+      "#46cf8b",
+      "#2d8bff",
+      "#09c269",
+      "#995a8d",
+      "#a1a2a3",
+      "#ff6788",
+      "#339ab5",
+      "#86b8dc",
+      "#95bf48",
+      "#997b5a"
+    ]
+  },
+  {
+    "siteName": "MariaDB",
+    "url": "https://mariadb.com",
+    "colors": [
+      "#4bb7bf",
+      "#aac64a",
+      "#7da3ad",
+      "#99d8b4",
+      "#548b9a",
+      "#76994b",
+      "#94bf87",
+      "#7ad5f1"
+    ]
+  },
+  {
+    "siteName": "Marketo",
+    "url": "https://www.marketo.com",
+    "colors": [
+      "#5944af",
+      "#9ab4e0",
+      "#8088c4",
+      "#3f88cf",
+      "#48bbe7",
+      "#a4514b",
+      "#0045a0",
+      "#3d729c"
+    ]
+  },
+  {
+    "siteName": "MeisterTask",
+    "url": "https://www.meistertask.com/",
+    "colors": [
+      "#16c3e6",
+      "#a37ee6",
+      "#de4332",
+      "#a1a9ac",
+      "#7dd743",
+      "#c88d37",
+      "#e25168",
+      "#ffbd15",
+      "#5381a0",
+      "#64c7f5"
+    ]
+  },
+  {
+    "siteName": "Moengage",
+    "url": "https://www.moengage.com",
+    "colors": [
+      "#51ad54",
+      "#fbd763",
+      "#006699",
+      "#989d96",
+      "#0090d3",
+      "#446da0",
+      "#68c395",
+      "#70a7c3",
+      "#9dd29d",
+      "#a05a33"
+    ]
+  },
+  {
+    "siteName": "Monday",
+    "url": "https://monday.com/",
+    "colors": [
+      "#00cb6f",
+      "#ff0375",
+      "#3f7cc7",
+      "#8f9ca1",
+      "#e04a5a",
+      "#e8aa4c",
+      "#527bfe",
+      "#6eb5f2",
+      "#997460",
+      "#ae3704"
+    ]
+  },
+  {
+    "siteName": "NewRelic",
+    "url": "https://newrelic.com",
+    "colors": [
+      "#338799",
+      "#60d7f0",
+      "#9d9ca0",
+      "#6f88ab",
+      "#c87c40",
+      "#339bcf",
+      "#67c6a4",
+      "#7daade",
+      "#a73eff",
+      "#c64a2a"
+    ]
+  },
+  {
+    "siteName": "Officevibe",
+    "url": "https://www.officevibe.com",
+    "colors": [
+      "#fbc205",
+      "#1152ff",
+      "#4f50a9",
+      "#2992fd",
+      "#70b4ff",
+      "#ff95ab",
+      "#ff5175",
+      "#4465ff",
+      "#2730b3",
+      "#719eb9"
+    ]
+  },
+  {
+    "siteName": "Optimove",
+    "url": "https://www.optimove.com",
+    "colors": [
+      "#0066a2",
+      "#01aaff",
+      "#ff00aa",
+      "#61c8ff",
+      "#a0a0a0",
+      "#5b93db",
+      "#88b2de",
+      "#9e6f60",
+      "#997e02",
+      "#e3ab9c"
+    ]
+  },
+  {
+    "siteName": "PatriotSoftware",
+    "url": "https://www.patriotsoftware.com",
+    "colors": [
+      "#3d61a4",
+      "#ba4516",
+      "#5c8dc6",
+      "#9badcd",
+      "#bd9182",
+      "#ea4b56",
+      "#93849d",
+      "#9f7163",
+      "#c4182e",
+      "#d18845"
+    ]
+  },
+  {
+    "siteName": "Pipefy",
+    "url": "https://www.pipefy.com/",
+    "colors": [
+      "#027ef9",
+      "#ffa61e",
+      "#00cc8b",
+      "#65e1b9",
+      "#803bff",
+      "#ec4a2b",
+      "#b17e5f",
+      "#4d54e7",
+      "#c5aa98",
+      "#2a5d9e"
+    ]
+  },
+  {
+    "siteName": "Planplex",
+    "url": "https://www.planplex.com",
+    "colors": [
+      "#0088cb",
+      "#1eb19a",
+      "#3a87ad",
+      "#9aa577",
+      "#48ceec",
+      "#619edd",
+      "#748c9d",
+      "#90c1e7",
+      "#ae6c40",
+      "#b4b4a9"
+    ]
+  },
+  {
+    "siteName": "Plivo",
+    "url": "https://www.plivo.com",
+    "colors": [
+      "#39cd77",
+      "#2bb031",
+      "#496bb0",
+      "#81bff3",
+      "#adafb5",
+      "#4d9eed",
+      "#789fb8",
+      "#bc723a",
+      "#bc9e74",
+      "#e8b384"
+    ]
+  },
+  {
+    "siteName": "Postman",
+    "url": "https://www.getpostman.com",
+    "colors": [
+      "#ff6c37",
+      "#b85735",
+      "#9baec0",
+      "#6b829a",
+      "#227dc6",
+      "#c98f5c",
+      "#e4410b",
+      "#f99d78"
+    ]
+  },
+  {
+    "siteName": "Quickbooks",
+    "url": "https://quickbooks.intuit.com/",
+    "colors": [
+      "#51b702",
+      "#27bc6d",
+      "#05c0b5",
+      "#099d88",
+      "#16efe8",
+      "#2ba01b",
+      "#4c80c4",
+      "#87c32e",
+      "#97989a",
+      "#d08650"
+    ]
+  },
+  {
+    "siteName": "RelaHQ",
+    "url": "https://www.relahq.com",
+    "colors": [
+      "#f34d2d",
+      "#b0b1b0",
+      "#3977c0",
+      "#4d519b",
+      "#8ab3dd",
+      "#c9a974",
+      "#0045a0",
+      "#56aac4",
+      "#727ab6",
+      "#899f92"
+    ]
+  },
+  {
+    "siteName": "Repsly",
+    "url": "https://www.repsly.com",
+    "colors": [
+      "#00a49b",
+      "#f29005",
+      "#e0293a",
+      "#3ecbb7",
+      "#04bed7",
+      "#349a66",
+      "#3f6cb0",
+      "#5cb3e4",
+      "#61b189",
+      "#78b63c"
+    ]
+  },
+  {
+    "siteName": "Roomsy",
+    "url": "https://www.roomsy.com",
+    "colors": [
+      "#6eacfb",
+      "#9f9bf7",
+      "#ff5a5f",
+      "#3a73f0",
+      "#98999a",
+      "#007bff",
+      "#669fb2",
+      "#8150a0",
+      "#80c88c",
+      "#885afc"
+    ]
+  },
+  {
+    "siteName": "RouteHappy",
+    "url": "https://www.routehappy.com",
+    "colors": [
+      "#0486c7",
+      "#1361a4",
+      "#ffd228",
+      "#b4b4b4",
+      "#35a2e8",
+      "#729cba",
+      "#72d0ff",
+      "#a2a23b"
+    ]
+  },
+  {
+    "siteName": "Rydoo",
+    "url": "https://www.rydoo.com/",
+    "colors": [
+      "#c56479",
+      "#3d2c99",
+      "#9594ed",
+      "#ff9673",
+      "#09e0c6",
+      "#30a121",
+      "#43babb",
+      "#54ecfb",
+      "#5e61da",
+      "#685a9f"
+    ]
+  },
+  {
+    "siteName": "Salesforce",
+    "url": "https://www.salesforce.com",
+    "colors": [
+      "#0170d1",
+      "#a7bb97",
+      "#4ac981",
+      "#a57f3a",
+      "#c0a16f",
+      "#3e77ae",
+      "#5ddcda",
+      "#7166b2",
+      "#90bfd9",
+      "#d2679d"
+    ]
+  },
+  {
+    "siteName": "SaltStack",
+    "url": "https://www.saltstack.com",
+    "colors": [
+      "#02e4b0"
+    ]
+  },
+  {
+    "siteName": "Sendinblue",
+    "url": "https://www.sendinblue.com",
+    "colors": [
+      "#156ea1",
+      "#0091ff",
+      "#d5b197",
+      "#38a7ff",
+      "#a26545",
+      "#bc8b6b",
+      "#ffd206"
+    ]
+  },
+  {
+    "siteName": "ServiceTitan",
+    "url": "https://www.servicetitan.com",
+    "colors": [
+      "#1cacf5",
+      "#4974b2",
+      "#233fe0",
+      "#7de0ff",
+      "#8feba0",
+      "#b3b4b5",
+      "#ff8b06",
+      "#4689f0",
+      "#798a9f",
+      "#77bad6"
+    ]
+  },
+  {
+    "siteName": "Shopify",
+    "url": "https://www.shopify.com",
+    "colors": [
+      "#e68136",
+      "#636fa5",
+      "#ceaa94",
+      "#88b2c5",
+      "#034ea8",
+      "#0082a7",
+      "#247fdb",
+      "#9b4840",
+      "#9c7d73",
+      "#c25703"
+    ]
+  },
+  {
+    "siteName": "SimpleLegal",
+    "url": "https://www.simplelegal.com",
+    "colors": [
+      "#56c587",
+      "#73b4c6",
+      "#7fe7a6",
+      "#a49388",
+      "#bdb4ac",
+      "#4b2dcf",
+      "#0084b4",
+      "#1e30aa",
+      "#37a3bb",
+      "#694fff"
+    ]
+  },
+  {
+    "siteName": "Simpo",
+    "url": "https://www.simpo.io",
+    "colors": [
+      "#5facff",
+      "#92939d",
+      "#3689e2",
+      "#91cfc9",
+      "#ffc73e",
+      "#0077b5",
+      "#c4ab9f",
+      "#eb8384"
+    ]
+  },
+  {
+    "siteName": "Sisense",
+    "url": "https://www.sisense.com",
+    "colors": [
+      "#ffca05",
+      "#b1b2b1",
+      "#a36a52",
+      "#9f7d02",
+      "#bb9e36",
+      "#d69f7d",
+      "#ffdc50"
+    ]
+  },
+  {
+    "siteName": "Slack",
+    "url": "https://slack.com",
+    "colors": [
+      "#4248a8",
+      "#e3696e",
+      "#ffbd30",
+      "#a3a3a3",
+      "#36c5f0",
+      "#48b888",
+      "#a2606a",
+      "#c57425",
+      "#c5a475",
+      "#cd2454"
+    ]
+  },
+  {
+    "siteName": "Socure",
+    "url": "https://www.socure.com",
+    "colors": [
+      "#fda305",
+      "#fd6405",
+      "#f9ad39",
+      "#fc4036",
+      "#0d74bc",
+      "#15bbed",
+      "#75c6ff",
+      "#a57733",
+      "#b88b86",
+      "#f2b286"
+    ]
+  },
+  {
+    "siteName": "StackAdapt",
+    "url": "https://www.stackadapt.com",
+    "colors": [
+      "#425cb3",
+      "#5070f5",
+      "#28389a",
+      "#ff7a8f",
+      "#36b1dc",
+      "#38f2c7",
+      "#478a9c",
+      "#7fa2a5",
+      "#ef4224",
+      "#02adaa"
+    ]
+  },
+  {
+    "siteName": "Streak",
+    "url": "https://www.streak.com",
+    "colors": [
+      "#5d76d8",
+      "#4355b9",
+      "#03c7b6",
+      "#f54c55",
+      "#9da9e1",
+      "#a15f23",
+      "#a1785f",
+      "#d18846",
+      "#f2b01c",
+      "#fb7524"
+    ]
+  },
+  {
+    "siteName": "Stripe",
+    "url": "https://stripe.com",
+    "colors": [
+      "#1ea2ff",
+      "#5533ff",
+      "#4165ff",
+      "#25dcf5",
+      "#3dce8e",
+      "#80ddf2",
+      "#9251ab",
+      "#12b47d",
+      "#5780c4",
+      "#a2a9b9"
+    ]
+  },
+  {
+    "siteName": "Tableau",
+    "url": "https://www.tableau.com",
+    "colors": [
+      "#ff6d05",
+      "#393bb2",
+      "#4981b4",
+      "#93b0b5",
+      "#e8983e",
+      "#0856a5",
+      "#66c1f7",
+      "#868fdb",
+      "#9d807c",
+      "#b95f12"
+    ]
+  },
+  {
+    "siteName": "Talentlms",
+    "url": "https://www.talentlms.com",
+    "colors": [
+      "#1a67b3",
+      "#a5b5c1",
+      "#f67917",
+      "#ef925f",
+      "#39afb5",
+      "#ba642c",
+      "#7fc787",
+      "#9669ad",
+      "#ffd23d",
+      "#74a2cf"
+    ]
+  },
+  {
+    "siteName": "Teem",
+    "url": "https://www.teem.com",
+    "colors": [
+      "#f26d6e",
+      "#adaead",
+      "#f59a9a",
+      "#c7945e",
+      "#4e99bd",
+      "#a06a79",
+      "#fcc51e",
+      "#fde25d",
+      "#3360a7",
+      "#70b9f2"
+    ]
+  },
+  {
+    "siteName": "Termius",
+    "url": "https://termius.com",
+    "colors": [
+      "#176bb5",
+      "#00cb75",
+      "#49e287",
+      "#69c8f8",
+      "#9198a9",
+      "#e4a563"
+    ]
+  },
+  {
+    "siteName": "Twilio",
+    "url": "https://www.twilio.com",
+    "colors": [
+      "#b387a3",
+      "#f22f47",
+      "#8897c4",
+      "#4a7abc",
+      "#a35c76",
+      "#dfaba0",
+      "#9150ae"
+    ]
+  },
+  {
+    "siteName": "UltimateSoftwareGroup",
+    "url": "https://www.ultimatesoftware.com",
+    "colors": [
+      "#4f9d2e",
+      "#4b9b67",
+      "#33989a",
+      "#4c8ed3",
+      "#6cc6cd",
+      "#90a12f",
+      "#a6a7a6",
+      "#3867ad",
+      "#64dcff",
+      "#bca868"
+    ]
+  },
+  {
+    "siteName": "Upfluence",
+    "url": "https://upfluence.com",
+    "colors": [
+      "#a1adba",
+      "#79889d",
+      "#0d0de7",
+      "#5852ac",
+      "#7574d2",
+      "#a4876f",
+      "#bd396c",
+      "#c2a892"
+    ]
+  },
+  {
+    "siteName": "Veeva",
+    "url": "https://www.veeva.com",
+    "colors": [
+      "#ee7325",
+      "#65abdd",
+      "#1ababa",
+      "#1976a3",
+      "#99b1ce",
+      "#fecf87",
+      "#5280ab",
+      "#939998",
+      "#9a4f2c",
+      "#bba067"
+    ]
+  },
+  {
+    "siteName": "Workday",
+    "url": "https://www.workday.com",
+    "colors": [
+      "#006eb5",
+      "#36a2c0",
+      "#68ceae",
+      "#b5d555",
+      "#ff040b",
+      "#ffe230",
+      "#04af87",
+      "#779d8c",
+      "#8dbbf1",
+      "#acacac"
+    ]
+  },
+  {
+    "siteName": "Xsellco",
+    "url": "https://www.xsellco.com",
+    "colors": [
+      "#5273f4",
+      "#ff5f25",
+      "#9b432e",
+      "#99999a",
+      "#c9ad97",
+      "#5088b9",
+      "#8aaf33",
+      "#9e7866",
+      "#d1903d",
+      "#f51f05"
+    ]
+  },
+  {
+    "siteName": "Zendesk",
+    "url": "https://www.zendesk.com",
+    "colors": [
+      "#cfad20",
+      "#30a9bc",
+      "#f88c2a",
+      "#80bb02",
+      "#c56f51",
+      "#0152e1",
+      "#aab3b4",
+      "#c8a279",
+      "#00239e",
+      "#4577ef"
+    ]
+  },
+  {
+    "siteName": "ZohoBooks",
+    "url": "https://www.zoho.com/books/",
+    "colors": [
+      "#809bff",
+      "#ff4f51",
+      "#1579e0",
+      "#4abbff",
+      "#5a61a8",
+      "#62a4c7",
+      "#95a2a8",
+      "#a58479",
+      "#a84e09",
+      "#ce8255"
+    ]
+  }
+]

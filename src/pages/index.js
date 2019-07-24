@@ -38,7 +38,7 @@ const Index = ({ data, location }) => {
         </div>
       </div>
 
-      <section className="bg-light-blue">
+      <section className="bg-light-blue pb-5">
       <div className="container bg-light-blue">
         <div className="row">
           {blocksOrder.map(block => {

@@ -42,8 +42,8 @@ const Template = ({ data, location }) => {
             <p className="text-muted">Block</p>
           </div>
         </section>
-        <section className="bg-light-blue">
-          <div className="container pt-4">
+        <section className="bg-light-blue pb-5">
+          <div className="container pt-5">
             <div className="row">
               <div className="col-md-7">
                 <h2 className="text-primary font-weight-bold display-4">Best Practices</h2>
@@ -66,9 +66,7 @@ const Template = ({ data, location }) => {
                     <b>Real examples to be inspired</b>
                     <div className="row mt-3">
                       {blockData.examples.map(sn => {
-                        console.log(sn);
                         const ss = screenshotData.filter(ss => ss.screenshotData.siteName === sn && blockToDisplayBlockName[ss.screenshotData.blockName] === block.title)[0];
-                        console.log(ss);
                         const {siteName, blockName} = ss.screenshotData;
                         const src = `/img/ss/${siteName}/7-7-2019/${blockName}/${siteName}_${blockName}_01*700.jpg`
 
@@ -111,7 +109,7 @@ const Template = ({ data, location }) => {
             </div>
           </div>
         </section>
-        <section id="screenshots">
+        <section id="screenshots" className="mt-5 pb-5">
           <div className="container mt-3">
             <div className="row">
               {screenshotData.map(ss => {
@@ -120,7 +118,7 @@ const Template = ({ data, location }) => {
                 return (
                   <div className="col-md-6" onClick={() => setSS(ss)}>
                     <Link to={`/sites/${siteName.toLowerCase()}`}>
-                      <span>{siteName}</span>
+                      <h3>{siteName}</h3>
                     </Link>
                     <LazyLoadImage
                       className="img-pulse"
@@ -134,7 +132,7 @@ const Template = ({ data, location }) => {
             </div>
           </div>
         </section>
-        <section className="bg-dark text-white text-center">
+        <section className="bg-dark text-white text-center py-5">
           <h2 className="display-4 font-weight-bolder">Here are some other blocks</h2>
           <div className="container mt-5">
           <div className="row">

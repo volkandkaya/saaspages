@@ -8,7 +8,7 @@ import Layout from 'components/Layout'
 import Meta from 'components/Meta'
 import Icon from 'components/Icon'
 
-class Profile extends React.Component {
+class About extends React.Component {
   render() {
     const { location, data } = this.props;
     const data_blocks = get(data, 'remark.blocks')
@@ -16,9 +16,9 @@ class Profile extends React.Component {
 
     return (
       <Layout location={location} blocks={data_blocks} hideFooter>
-        <Meta site={siteMetadata} title="Profile" />
+        <Meta site={siteMetadata} title="About" />
         <section>
-          <div className="container mt-5">
+          <div className="container mt-5 pt-5">
             <div className="row">
               <div className="col-md-6 offset-md-3">
                 <h1>About</h1>
@@ -31,7 +31,7 @@ class Profile extends React.Component {
                   <br /><br />
                   I had this idea in my head for a while but seeing great websites on Product Hunt gave me the push I needed to create it.
                   <br /><br />
-                  Please checkout <a href="https://www.checklist.design" target="_blank">Checklist Design</a> I borrowed a lot from this website. Also <a href="https://webframe.xyz/" target="_blank">Webframe</a> he was able to build the site in under a week and rank number 1 on Product Hunt.
+                  Please checkout <a href="https://www.checklist.design" target="_blank">Checklist Design</a> I borrowed a lot from this website. Also I was inspired by <a href="https://webframe.xyz/" target="_blank">Webframe</a> he was able to build a great site in a week and then rank number 1 on Product Hunt with it.
                 </p>
               </div>
             </div>
@@ -43,7 +43,7 @@ class Profile extends React.Component {
   }
 }
 
-export default Profile
+export default About
 
 export const pageQuery = graphql`
   query AboutQuery {

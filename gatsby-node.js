@@ -1,8 +1,12 @@
 const each = require('lodash/each')
 const path = require('path')
+const realFs = require('fs')
+const gracefulFs = require('graceful-fs')
 const BlockTemplate = path.resolve('./src/templates/block.js')
 const PostTemplate = path.resolve('./src/templates/index.js')
 const SiteTemplate = path.resolve('./src/templates/Site/index.js')
+
+gracefulFs.gracefulify(realFs)
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions

@@ -29,16 +29,16 @@ const Sites = ({ data, location }) => {
   console.log(ss);
   return (
     <Layout location={location} blocks={data_blocks}>
-      <Meta site={get(data, 'site.meta')} />
+      <Meta site={get(data, 'site.meta')} title="Sites"/>
       {ss ? <ImageModal ss={ss} onClose={() => setSS(null)}/> : null}
-      <section >
+      <section className="mt-5">
           <div className="container mt-5 pt-5">
             <h1 className="display-3 text-primary font-weight-bold">Sites</h1>
             <p className="text-muted">All sites on SaaS Pages</p>
           </div>
         </section>
 
-      <section id="screenshots" className="bg-light-blue">
+      <section id="screenshots" className="bg-light-blue pt-5">
           <div className="container">
             <div className="row">
               {screenshots.map(ss => {
@@ -47,7 +47,7 @@ const Sites = ({ data, location }) => {
                 return (
                   <div key={ss_url} className="col-md-6" onClick={() => setSS(ss)}>
                     <Link to={`/sites/${siteName.toLowerCase()}`}>
-                      <span>{siteName}</span>
+                      <h3>{siteName}</h3>
                     </Link>
                     <LazyLoadImage
                       className="img-pulse"
