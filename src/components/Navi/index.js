@@ -4,10 +4,10 @@ import ReactGA from 'react-ga'
 import { blocksOrder } from '../../constants/blocks'
 
 class Navi extends React.Component {
-  // componentDidMount = () => {
-  //   ReactGA.initialize('UA-144498366-1');
-  //   ReactGA.pageview(window.location.pathname + window.location.search);
-  // }
+  componentDidMount = () => {
+    ReactGA.initialize('UA-144498366-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
 
   render() {
     const { location, title } = this.props;
@@ -15,7 +15,7 @@ class Navi extends React.Component {
 
     return (
       <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 fixed-top bg-white zIndex999">
-        <Link className="text-center pr-md-5" to="/">
+        <Link className="text-center pl-md-5" to="/">
           <h1 className="navbar-brand mb-0 text-primary pr-3">{title}</h1>
         </Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,6 +62,17 @@ class Navi extends React.Component {
               >
                 <Link to="/about/" className="nav-link">
                   About
+                </Link>
+              </li>
+              <li
+                className={
+                  location.pathname === '/roadmap/'
+                    ? 'nav-item active pr-3'
+                    : 'nav-item pr-3'
+                }
+              >
+                <Link to="/roadmap/" className="nav-link">
+                  Roadmap
                 </Link>
               </li>
             </ul>

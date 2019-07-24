@@ -8,7 +8,7 @@ import Layout from 'components/Layout'
 import Meta from 'components/Meta'
 import Icon from 'components/Icon'
 
-class About extends React.Component {
+class Roadmap extends React.Component {
   render() {
     const { location, data } = this.props;
     const data_blocks = get(data, 'remark.blocks')
@@ -21,21 +21,18 @@ class About extends React.Component {
           <div className="container mt-5 pt-5">
             <div className="row">
               <div className="col-md-6 offset-md-3">
-                <h1>About</h1>
-                <p className="mt-3">
-                  Hey, I'm <a href="https://twitter.com/volkandkaya" target="_blank">Volkan Kaya</a>, a developer turned founder from London, UK - creator of SaaS Pages!
-                  <br /><br />
-                  While working on <a href="https:/versoly.com/?ref=saaspages">Versoly</a> a SaaS landing page builder, I had to build great landing pages. I wanted an easy way to see how other SaaS landing pages were designed, laid out and most importantly their copywriting.
-                  <br /><br />
-                  The aim of this website is to help myself and SaaS companies build the best landing pages so that they can convert visitors to paying customers.
-                  <br /><br />
-                  I had this idea in my head for a while but seeing great websites on Product Hunt gave me the push I needed to create it.
-                  <br /><br />
-                  Please checkout <a href="https://www.checklist.design" target="_blank">Checklist Design</a> I borrowed a lot from this website. Also I was inspired by <a href="https://webframe.xyz/" target="_blank">Webframe</a> he was able to build a great site in a week and then rank number 1 on Product Hunt with it.
-                  <br /><br />
-                  P.S. All code is open source on <a href="https://github.com/volkandkaya/saaspages">Github</a> the code is terrible at the moment. Will need to invest some time cleaning it up.
-                </p>
-
+                <h1>Roadmap</h1>
+                <ul>
+                  <li>Login</li>
+                  <li>Save as favorite</li>
+                  <li>Request a site</li>
+                  <li>Filter by site</li>
+                  <li>Filter by industry</li>
+                  <li>Filter by funding (Bootstrap/VC)</li>
+                  <li>Have multiple blocks of the same site from different time periods</li>
+                  <li>Add relevant articles to each block</li>
+                  <li>Guide on building each block</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -46,10 +43,10 @@ class About extends React.Component {
   }
 }
 
-export default About
+export default Roadmap
 
 export const pageQuery = graphql`
-  query AboutQuery {
+  query RoadmapQuery {
     site {
       meta: siteMetadata {
         title
