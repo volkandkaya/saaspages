@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
+import axios from 'axios'
 import { blocksOrder } from '../../constants/blocks'
 
 const validateEmail = (email) => {
@@ -116,7 +117,7 @@ class Navi extends React.Component {
                   type="email"
                 />
                 <button
-                  className="btn btn-warning"
+                  className="btn btn-warningdone"
                   type="submit"
                   onClick={() => this.emailAPI(email)}
                   disabled={isRequesting}>Get Updates</button>
