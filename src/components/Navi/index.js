@@ -17,7 +17,7 @@ class Navi extends React.Component {
   };
 
   emailAPI = (email) => {
-    const {setState} = this;
+    let isSent = false;
     if (!validateEmail(email)) {
       this.setState({error: 'Invalid Email'})
       return false
@@ -28,17 +28,17 @@ class Navi extends React.Component {
       data: [{email}]
     })
     .then(function (response) {
-      this.setState({email: ''})
-      this.setState({isRequesting: false})
-      this.setState({isSent: true})
     })
     .catch(function (error) {
-      this.setState({isRequesting: false})
+      console.log(error)
     });
+    console.log(email, isSent);
+    this.setState({email: '', isSent: true, isRequesting: false})
   };
 
   render() {
     const {email, isRequesting, isSent, error} = this.state;
+    console.log(isSent);
     const { location, title } = this.props;
     const blocks = this.props.blocks.map(block => block.block.frontmatter);
 
