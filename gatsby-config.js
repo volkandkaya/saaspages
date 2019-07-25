@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'SaaS Pages',
-    description: 'Gatsby starter for bootstrap a blog',
+    description: 'Screenshots, tips and tricks to build the best SaaS landing page that actually converts',
     siteUrl: 'https://gatstrap.netlify.com',
     author: 'jaxx2104',
     twitter: 'jaxx2104',
