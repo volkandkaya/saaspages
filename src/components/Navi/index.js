@@ -20,7 +20,7 @@ class Navi extends React.Component {
     if (!validateEmail(email)) {
       this.setState({error: 'Invalid Email'})
       return false
-    }not
+    }
     this.setState({isRequesting: true})
 
     axios.post('https://sheetdb.io/api/v1/w59qljkoc4npo', {
@@ -117,7 +117,7 @@ class Navi extends React.Component {
                   type="email"
                 />
                 <button
-                  className="btn btn-warningdone"
+                  className="btn btn-warning"
                   type="submit"
                   onClick={() => this.emailAPI(email)}
                   disabled={isRequesting}>Get Updates</button>
