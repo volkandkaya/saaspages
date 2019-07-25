@@ -17,6 +17,7 @@ class Navi extends React.Component {
   };
 
   emailAPI = (email) => {
+    const {setState} = this;
     if (!validateEmail(email)) {
       this.setState({error: 'Invalid Email'})
       return false
