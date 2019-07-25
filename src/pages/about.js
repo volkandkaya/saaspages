@@ -25,7 +25,7 @@ class About extends React.Component {
                 <p className="mt-3">
                   Hey, I'm <a href="https://twitter.com/volkandkaya" target="_blank">Volkan Kaya</a>, a developer turned founder from London, UK - creator of SaaS Pages!
                   <br /><br />
-                  While working on <a href="https:/versoly.com/?ref=saaspages">Versoly</a> a SaaS landing page builder, I had to build great landing pages. I wanted an easy way to see how other SaaS landing pages were designed, laid out and most importantly their copywriting.
+                  While working on <a href="https://versoly.com/?ref=saaspages">Versoly</a> a SaaS landing page builder, I had to build great landing pages. I wanted an easy way to see how other SaaS landing pages were designed, laid out and most importantly their copywriting.
                   <br /><br />
                   The aim of this website is to help myself and SaaS companies build the best landing pages so that they can convert visitors to paying customers.
                   <br /><br />
