@@ -1,14 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import ReactGA from 'react-ga'
 import { blocksOrder } from '../../constants/blocks'
 
 class Navi extends React.Component {
-  componentDidMount = () => {
-    ReactGA.initialize('UA-144498366-1');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
-
   render() {
     const { location, title } = this.props;
     const blocks = this.props.blocks.map(block => block.block.frontmatter);
