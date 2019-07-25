@@ -1,11 +1,46 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 import { blocksOrder } from '../../constants/blocks'
 
+const validateEmail = (email) => {
+  var re = /\S+@\S+\.\S+/
+  return re.test(email)
+}
+
 class Navi extends React.Component {
+  state = {
+    email: '',
+    isRequesting: false,
+    isSent: false,
+    error: ''
+  };
+
+  emailAPI = (email) => {
+    if (!validateEmail(email)) {
+      this.setState({error: 'Invalid Email'})
+      return false
+    }
+    this.setState({isRequesting: true})
+
+    axios.post('https://sheetdb.io/api/v1/w59qljkoc4npo', {
+      data: [{email}]
+    })
+    .then(function (response) {
+      this.setState({email: ''})
+      this.setState({isRequesting: false})
+      this.setState({isSent: true})
+    })
+    .catch(function (error) {
+      this.setState({isRequesting: false})
+    });
+  };
+
   render() {
+    const {email, isRequesting, isSent, error} = this.state;
     const { location, title } = this.props;
     const blocks = this.props.blocks.map(block => block.block.frontmatter);
+
+    const emailValidClass = email ? validateEmail(email) ? 'is-valid' : 'is-invalid' : '';
 
     return (
       <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 fixed-top bg-white zIndex999">
@@ -16,7 +51,7 @@ class Navi extends React.Component {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav mr-auto">
               <li
                 className={
                   location.pathname === '/' ? 'nav-item active pr-3' : 'nav-item pr-3'
@@ -70,6 +105,24 @@ class Navi extends React.Component {
                 </Link>
               </li>
             </ul>
+            <div class="form-inline mr-md-3">
+              {!isSent ? <Fragment>
+                <input
+                  className={"w-300px form-control d-inline-block mr-2 " + emailValidClass}
+                  placeholder="Your email address"
+                  value={email}
+                  onChange={e => this.setState({email: e.target.value})}
+                  required
+                  type="email"
+                />
+                <button
+                  className="btn btn-primary"
+                  type="submit"
+                  onClick={() => this.emailAPI(email)}
+                  disabled={isRequesting}>Get Updates</button>
+                  {!!error ? <p className="text-danger">{error}</p> : null}
+                </Fragment> : <h5>Thank you for subscribing!</h5> }
+            </div>
         </div>
       </nav>
     )
