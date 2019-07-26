@@ -26,9 +26,7 @@ const Site = ({ data, location }) => {
   const data_blocks = get(data, 'remark.blocks')
   const blocks = data_blocks.map(block => block.block.frontmatter);
   const sites = data.allSitesJson.edges
-  console.log(sites, siteName)
   const site = sites.filter(site => site.node.siteName.toLowerCase() === siteName)[0].node
-  console.log(site)
 
   const siteNames = sites.map(site => site.node.siteName)
   const displaySiteName = siteNames.find(site => site.toLowerCase() === siteName)
@@ -38,7 +36,13 @@ const Site = ({ data, location }) => {
   return (
     <Layout location={location} blocks={data_blocks}>
       <Meta site={get(data, 'site.meta')} />
-      {ss ? <ImageModal ss={ss} onClose={() => setSS(null)}/> : null}
+      {ss ? <ImageModal
+          ss={ss}
+          onClose={() => setSS(null)}
+          screenshots={screenshots}
+          setSS={setSS}
+          filterName='blockName'
+          /> : null}
       <section >
           <div className="container mt-5 pt-5 mb-4">
             <h1 className="display-3 text-primary font-weight-bold"><a href={site.url} target="_blank">{displaySiteName}</a></h1>

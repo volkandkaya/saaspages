@@ -26,10 +26,17 @@ const Template = ({ data, location }) => {
   const screenshotData = get(data, 'allScreenshotsJson.edges').filter(ss => blockToDisplayBlockName[ss.screenshotData.blockName] === block.title)
 
   const someBlocks = sampleSize(blocks.map(block => block.block.frontmatter), 6)
+  const screenshots = data.allScreenshotsJson.edges.filter(ss => blockToDisplayBlockName[ss.screenshotData.blockName] === block.title);
 
   return(
     <div>
-      {ss ? <ImageModal ss={ss} onClose={() => setSS(null)}/> : null}
+      {ss ? <ImageModal
+          ss={ss}
+          onClose={() => setSS(null)}
+          screenshots={screenshots}
+          setSS={setSS}
+          filterName='siteName'
+          /> : null}
       <Layout location={location} blocks={blocks}>
         <Meta
           title={block.title + " Block"}

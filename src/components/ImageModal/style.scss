@@ -1,0 +1,29 @@
+.leftArrow {
+  position: fixed;
+  top: 45%;
+  background-color: #fff;
+  z-index: 2000;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  left: 0;
+}
+
+.rightArrow {
+  position: fixed;
+  top: 45%;
+  background-color: #fff;
+  z-index: 2000;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  right: 0;
+}
+
+.arrowIcon {
+  padding: 20px 15px;
+  font-size: 50px;
+  font-weight: 900;
+}

@@ -31,6 +31,8 @@ import {
   faQuestion,
   faArrowAltCircleRight,
   faExpandArrowsAlt,
+  faAngleLeft,
+  faAngleRight
 
 } from '@fortawesome/free-solid-svg-icons'
 
@@ -73,7 +75,9 @@ library.add(
   faWindowMinimize,
   faQuestion,
   faArrowAltCircleRight,
-  faExpandArrowsAlt
+  faExpandArrowsAlt,
+  faAngleLeft,
+  faAngleRight
 )
 
 const Icon = ({ prefix, name, className }) => (

@@ -26,11 +26,17 @@ const Sites = ({ data, location }) => {
   const sites = data.allSitesJson.edges;
   const siteNames = sites.map(site => site.siteName)
   const screenshots = data.allScreenshotsJson.edges.filter(ss => ss.screenshotData.blockName === 'Headers');
-  console.log(ss);
+
   return (
     <Layout location={location} blocks={data_blocks}>
       <Meta site={get(data, 'site.meta')} title="Sites"/>
-      {ss ? <ImageModal ss={ss} onClose={() => setSS(null)}/> : null}
+      {ss ? <ImageModal
+          ss={ss}
+          onClose={() => setSS(null)}
+          screenshots={screenshots}
+          setSS={setSS}
+          filterName='siteName'
+          /> : null}
       <section className="mt-5">
           <div className="container mt-5 pt-5">
             <h1 className="display-3 text-primary font-weight-bold">Sites</h1>
