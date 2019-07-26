@@ -58,11 +58,15 @@ const Footer = ({ author, title }) => {
             {!!error ? <p className="text-danger">{error}</p> : null}
           </Fragment> : <h5>Thank you for subscribing!</h5> }
       </div>
+      <div class="container-fluid text-center py-5 bg-primary text-white">
+        <h2 class="display-md-4 font-weight-bolder pb-3">Need to build a SaaS landing page?</h2>
+        <a class="btn btn-light btn-lg font-weight-bold text-primary" href="https://versoly.com" target="_blank">Try Versoly</a>
+      </div>
       <div className="container-fluid text-center py-5 bg-light-blue">
         <p>
           Saas Pages features the best landing pages to get inspiration for copywriting and design.
         </p>
-        <p>Created by <a href="https://twitter.com/volkandkaya">Volkan Kaya</a> @ <a href="https://twitter.com/volkandkaya">Versoly</a></p>
+        <p>Created by <a href="https://twitter.com/volkandkaya">Volkan Kaya</a> @ <a href="https://twitter.com/versoly">Versoly</a></p>
       </div>
     </div>
   );

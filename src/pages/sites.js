@@ -20,7 +20,7 @@ const blockButtonStyle = {
 }
 
 const Sites = ({ data, location }) => {
-  const [ss, setSS] = useState(null);
+  const [ss, setSS] = useState(null)
   const data_blocks = get(data, 'remark.blocks')
   const blocks = data_blocks.map(block => block.block.frontmatter);
   const sites = data.allSitesJson.edges;
