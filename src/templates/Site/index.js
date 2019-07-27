@@ -55,7 +55,7 @@ const Site = ({ data, location }) => {
               </div>
 
               {site.colors.map(color => {
-                return <div className="col-md-2 col-sm-4 col-xs-6">
+                return <div key={color} className="col-md-2 col-sm-4 col-xs-6">
                     <div style={{
                           height: '80px',
                           background: '#ddd',
@@ -101,7 +101,7 @@ const Site = ({ data, location }) => {
           <div className="container mt-5">
           <div className="row">
             {someBlocks.map(block => {
-              return <div className="col-md-2" >
+              return <div key={block.title} className="col-md-2" >
                   <Link className="p-2 border my-2 btn w-100" style={blockButtonStyle} to={block.path}>
                     <Icon prefix="fas" name={block.icon} />
                     <h5>{block.title}</h5>

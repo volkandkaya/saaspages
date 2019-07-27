@@ -18,7 +18,7 @@ const blockButtonStyle = {
   backgroundColor: '#fff'
 }
 
-const Template = ({ data, location }) => {
+const Block = ({ data, location }) => {
   const [ss, setSS] = useState(null);
   const blocks = get(data, 'remark.blocks');
   const block = get(data, 'block.frontmatter')
@@ -144,7 +144,7 @@ const Template = ({ data, location }) => {
           <div className="container mt-5">
           <div className="row">
             {someBlocks.map(block => {
-              return <div className="col-md-2" >
+              return <div key={block.title} className="col-md-2" >
                   <Link className="p-2 border my-2 btn w-100" style={blockButtonStyle} to={block.path}>
                     <Icon prefix="fas" name={block.icon} />
                     <h5>{block.title}</h5>
@@ -158,7 +158,7 @@ const Template = ({ data, location }) => {
     </div>
   )
 }
-export default Template
+export default Block
 
 export const blockQuery = graphql`
   query BlockByPath($path: String!) {

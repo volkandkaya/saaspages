@@ -26,6 +26,7 @@ const Sites = ({ data, location }) => {
   const sites = data.allSitesJson.edges;
   const siteNames = sites.map(site => site.siteName)
   const screenshots = data.allScreenshotsJson.edges.filter(ss => ss.screenshotData.blockName === 'Headers');
+  console.log(ss);
 
   return (
     <Layout location={location} blocks={data_blocks}>
