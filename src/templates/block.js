@@ -76,9 +76,13 @@ const Block = ({ data, location, navigate }) => {
       window.removeEventListener("scroll", listener);
     }
 
+    console.log(scrollY);
     if (!isEqual(qC, queryCategories)) {
       navigate(`${location.pathname}?categories=${qC.join(',')}`)
       queryCategories = qC
+    }
+    if (!ss) {
+      window.scroll(0, scrollY)
     }
   });
 

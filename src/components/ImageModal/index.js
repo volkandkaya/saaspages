@@ -1,6 +1,5 @@
 import { Link } from 'gatsby'
 import React, { useEffect, useRef } from 'react'
-import ReactDOM from 'react-dom'
 import { Lightbox } from 'react-modal-image'
 import Icon from 'components/Icon'
 
@@ -9,15 +8,21 @@ import { blockToDisplayBlockName } from '../../constants/blocks'
 
 class ImageModal extends React.Component {
   componentDidMount = () => {
-    ReactDOM.findDOMNode(this.refs.theDiv).focus();
+    window.addEventListener("keydown", this.keyDownListener)
   };
 
-  nextSS = (e, index) => {
-    e.preventDefault();
-    this.props.setSS(this.props.screenshots[index])
+  componentWillUnmount = () => {
+    window.removeEventListener("keydown", this.keyDownListener);
   };
 
-  onKeyDown = (e, index) => {
+  keyDownListener = (e) => {
+    const {ss, screenshots, filterName} = this.props;
+    let index = null;
+    screenshots.map((s, i) => {
+      if (s.screenshotData[filterName] === ss.screenshotData[filterName]) {
+        index = i;
+      }
+    })
     if(e.keyCode === 37) {
       if (index !== 0) {
         this.nextSS(e, index - 1)
@@ -28,6 +33,11 @@ class ImageModal extends React.Component {
         this.nextSS(e, index + 1)
       }
     }
+  };
+
+  nextSS = (e, index) => {
+    e.preventDefault();
+    this.props.setSS(this.props.screenshots[index])
   };
 
   render() {
@@ -46,7 +56,7 @@ class ImageModal extends React.Component {
     })
 
     return (
-      <div ref="theDiv" onKeyDown={(e) => this.onKeyDown(e, index)} >
+      <div>
         {index !== 0 ? <div
           className='leftArrow'
           onClick={(e) => this.nextSS(e, index-1)}
