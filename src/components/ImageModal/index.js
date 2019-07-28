@@ -14,7 +14,6 @@ class ImageModal extends React.Component {
 
   nextSS = (e, index) => {
     e.preventDefault();
-    console.log(this.props.ss, index);
     this.props.setSS(this.props.screenshots[index])
   };
 
@@ -45,10 +44,9 @@ class ImageModal extends React.Component {
         index = i;
       }
     })
-    console.log(ss, index);
 
     return (
-      <div tabIndex={0} ref="theDiv" onKeyDown={(e) => this.onKeyDown(e, index)} >
+      <div ref="theDiv" onKeyDown={(e) => this.onKeyDown(e, index)} >
         {index !== 0 ? <div
           className='leftArrow'
           onClick={(e) => this.nextSS(e, index-1)}
