@@ -28,7 +28,6 @@ const Sites = ({ data, location, navigate }) => {
   const [company, setCompany] = useState('')
   const [ss, setSS] = useState(null)
   const [qC, setQC] = useState([])
-  const [scrollY, setScrollY] = useState(0)
 
   const data_blocks = get(data, 'remark.blocks')
   const blocks = data_blocks.map(block => block.block.frontmatter)
@@ -62,20 +61,15 @@ const Sites = ({ data, location, navigate }) => {
     }
   }, []);
 
-  const listener = e => {
-    setScrollY(window.scrollY)
-  }
 
   useEffect(() => {
-    window.addEventListener("scroll", listener)
-    return () => {
-      window.removeEventListener("scroll", listener);
-    }
-
     if (!isEqual(qC, queryCategories)) {
-      navigate('/sites/?categories=' + qC.join(','))
+      let path = location.pathname
+      if (qC.length !== 0) {
+        path = `${location.pathname}?categories=${qC.join(',')}`
+      }
+      navigate(path)
       queryCategories = qC
-      window.scroll(0, scrollY)
     }
   });
 

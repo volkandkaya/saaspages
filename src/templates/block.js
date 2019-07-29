@@ -27,7 +27,6 @@ const Block = ({ data, location, navigate }) => {
   const [company, setCompany] = useState('')
   const [ss, setSS] = useState(null)
   const [qC, setQC] = useState([])
-  const [scrollY, setScrollY] = useState(0)
 
   const blocks = get(data, 'remark.blocks')
   const block = get(data, 'block.frontmatter')
@@ -66,23 +65,16 @@ const Block = ({ data, location, navigate }) => {
     }
   }, []);
 
-  const listener = e => {
-    setScrollY(window.scrollY)
-  }
+
 
   useEffect(() => {
-    window.addEventListener("scroll", listener)
-    return () => {
-      window.removeEventListener("scroll", listener);
-    }
-
-    console.log(scrollY);
     if (!isEqual(qC, queryCategories)) {
-      navigate(`${location.pathname}?categories=${qC.join(',')}`)
+      let path = location.pathname
+      if (qC.length !== 0) {
+        path = `${location.pathname}?categories=${qC.join(',')}`
+      }
+      navigate(path)
       queryCategories = qC
-    }
-    if (!ss) {
-      window.scroll(0, scrollY)
     }
   });
 
@@ -97,10 +89,6 @@ const Block = ({ data, location, navigate }) => {
   const filteredScreenshotData = screenshotData.filter(ss => ss.screenshotData.siteName.toLowerCase().includes(company.toLowerCase()))
 
   const filteredScreenshots = screenshots.filter(ss => ss.screenshotData.siteName.toLowerCase().includes(company.toLowerCase()))
-
-  if (queryCategories.length === 0 && location.search !== '') {
-    navigate(location.pathname)
-  }
 
   const handleCompanyChange = e => {
     setCompany(e.target.value)
