@@ -39,9 +39,11 @@ const Block = ({ data, location, navigate }) => {
 
   const sites = data.allSitesJson.edges
   let allQueryCategories = {}
+  let siteNameToCategory = {}
 
   sites.map(site => {
     allQueryCategories[site.node.category.toLowerCase()] = site.node.category
+    siteNameToCategory[site.node.siteName] = site.node.category.toLowerCase()
   })
 
   allQueryCategories = Object.keys(allQueryCategories).map(key => {
@@ -65,8 +67,6 @@ const Block = ({ data, location, navigate }) => {
     }
   }, []);
 
-
-
   useEffect(() => {
     if (!isEqual(qC, queryCategories)) {
       let path = location.pathname
@@ -86,7 +86,15 @@ const Block = ({ data, location, navigate }) => {
   }
   const filteredSiteNames = filteredSites.map(site => site.node.siteName)
 
-  const filteredScreenshotData = screenshotData.filter(ss => ss.screenshotData.siteName.toLowerCase().includes(company.toLowerCase()))
+  let filteredScreenshotData = screenshotData.filter(ss => ss.screenshotData.siteName.toLowerCase().includes(company.toLowerCase()))
+
+  if (queryCategories.length > 0) {
+    filteredScreenshotData = filteredScreenshotData.filter(ss => {
+      const ssCategory = siteNameToCategory[ss.screenshotData.siteName]
+      return queryCategories.includes(ssCategory)
+    })
+
+  }
 
   const filteredScreenshots = screenshots.filter(ss => ss.screenshotData.siteName.toLowerCase().includes(company.toLowerCase()))
 
