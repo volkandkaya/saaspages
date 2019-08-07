@@ -17,6 +17,13 @@ import CategoriesSelect from 'components/CategoriesSelect'
 import { blockToDisplayBlockName, displayToBlockName } from '../constants/blocks'
 import { getCategories } from '../utils/helpers'
 
+const ctas = [
+  "Want a SaaS landing page that actually converts?",
+  "Want to improve your landing page conversions?",
+  "Is your landing page slow, want something faster?",
+  // "Want a landing page similar to the best SaaS companies?"
+]
+
 const blockButtonStyle = {
   height: '200px',
   widht: '150px',
@@ -101,6 +108,8 @@ const Block = ({ data, location, navigate }) => {
   const handleCompanyChange = e => {
     setCompany(e.target.value)
   }
+
+  const cta = ctas[Math.round(Math.random()*4)]
 
   return(
     <div>
@@ -190,6 +199,10 @@ const Block = ({ data, location, navigate }) => {
             </div>
           </div>
         </section>
+        <div className="container-fluid text-center py-5 bg-primary text-white">
+          <h2 className="display-md-4 font-weight-bolder pb-3">{cta}</h2>
+          <a className="btn btn-light btn-lg font-weight-bold text-primary" href="https://versoly.com" target="_blank">Try Versoly</a>
+        </div>
         <section id="screenshots" className="mt-5 pb-5">
           <div className="container mt-3">
             <div className="row mb-5">

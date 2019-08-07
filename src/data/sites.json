@@ -1602,5 +1602,89 @@
       "#ce8255"
     ],
     "category": "Management"
+  },
+    {
+    "siteName": "Airtable",
+    "url": "https://airtable.com",
+    "colors": [
+      "#4ba6d6",
+      "#fcb405",
+      "#3177dc",
+      "#8148f6",
+      "#0d76b7",
+      "#9c9c9c",
+      "#ba1e46",
+      "#ef2f62",
+      "#1bbdfc",
+      "#52cd60"
+    ],
+    "category": "Productivity"
+  },
+  {
+    "siteName": "Crisp",
+    "url": "https://crisp.chat",
+    "colors": [
+      "#3b89ff",
+      "#ffd160",
+      "#ff9d5b",
+      "#1251c2",
+      "#a3a6bb",
+      "#4962a6",
+      "#9b5022",
+      "#aa7650",
+      "#bda281"
+    ],
+    "category": "Customer Service"
+  },
+  {
+    "siteName": "Netlify",
+    "url": "",
+    "colors": [
+      "#592ec1",
+      "#fa4067",
+      "#7998ac",
+      "#4177bd",
+      "#b1389d",
+      "#b18275",
+      "#74bfff",
+      "#99bacf",
+      "#b8672f",
+      "#e5a353"
+    ],
+    "category": "Developer Tools"
+  },
+  {
+    "siteName": "Pipedrive",
+    "url": "",
+    "colors": [
+      "#592ec1",
+      "#fa4067",
+      "#7998ac",
+      "#4177bd",
+      "#b1389d",
+      "#b18275",
+      "#74bfff",
+      "#99bacf",
+      "#b8672f",
+      "#e5a353"
+    ],
+    "category": "Sales"
+  },
+  {
+    "siteName": "Quip",
+    "url": "",
+    "colors": [
+      "#592ec1",
+      "#fa4067",
+      "#7998ac",
+      "#4177bd",
+      "#b1389d",
+      "#b18275",
+      "#74bfff",
+      "#99bacf",
+      "#b8672f",
+      "#e5a353"
+    ],
+    "category": "Productivity"
   }
 ]
