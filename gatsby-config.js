@@ -103,7 +103,7 @@ module.exports = {
         headers: {
           "/*": [
             "X-Frame-Options: allow-from https://app.versoly.com",
-            "Content-Security-Policy: frame-ancestors 'self' https://app.versoly.com localhost:3001"
+            "Content-Security-Policy: default-src 'self' localhost:* https://app.versoly.com"
           ],
         },
         mergeSecurityHeaders: true,
