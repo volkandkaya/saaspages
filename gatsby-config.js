@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: 'SaaS Pages',
     description: 'Screenshots, tips and tricks to build the best SaaS landing page that actually converts',
-    siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    siteUrl: 'https://saaspages.xyz',
+    author: 'Volkan Kaya',
+    twitter: 'volkandkaya',
     adsense: '',
   },
   pathPrefix: '/',
@@ -100,6 +100,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify',
       options: {
+        headers: {
+          "/*": [
+            "X-Frame-Options: allow-from https://app.versoly.com",
+          ],
+        }
         mergeSecurityHeaders: true,
         mergeLinkHeaders: true,
         mergeCachingHeaders: true,
