@@ -103,7 +103,7 @@ module.exports = {
         headers: {
           "/*": [
             // "X-Frame-Options: allow-from https://app.versoly.com",
-            "X-Frame-Options: ALLOWALL",
+            // "X-Frame-Options: ALLOWALL",
             // "Content-Security-Policy: default-src *;"
           ],
         },
