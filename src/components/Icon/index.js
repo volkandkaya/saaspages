@@ -32,7 +32,9 @@ import {
   faArrowAltCircleRight,
   faExpandArrowsAlt,
   faAngleLeft,
-  faAngleRight
+  faAngleRight,
+  faQuoteLeft,
+  faQuoteRight,
 
 } from '@fortawesome/free-solid-svg-icons'
 
@@ -77,7 +79,10 @@ library.add(
   faArrowAltCircleRight,
   faExpandArrowsAlt,
   faAngleLeft,
-  faAngleRight
+  faAngleRight,
+  faQuoteLeft,
+  faQuoteRight,
+
 )
 
 const Icon = ({ prefix, name, className }) => (

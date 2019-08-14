@@ -2,6 +2,7 @@ import { Link } from 'gatsby'
 import React, { Fragment, useState } from 'react'
 import axios from 'axios';
 import './style.scss'
+import Icon from 'components/Icon'
 
 const validateEmail = (email) => {
   var re = /\S+@\S+\.\S+/
@@ -58,6 +59,33 @@ const Footer = ({ author, title }) => {
             {!!error ? <p className="text-danger">{error}</p> : null}
           </Fragment> : <h5>Thank you for subscribing!</h5> }
       </div>
+
+      <div className="container-fluid text-center py-5 bg-light-blue">
+        <div className="row">
+          <div className="col-md-6 offset-md-3">
+            <img src="img/saastr.png" width="200"/>
+            <p className="lead">
+              <Icon className="d-inline-block mr-3 text-primary" prefix="fas" name={'quote-left'} />
+              Love what you guys are doing. Great stuff. Thanks for providing value!
+              <Icon className="d-inline-block ml-3 text-primary" prefix="fas" name={'quote-right'} />
+              </p>
+          </div>
+        </div>
+        <hr />
+        <div className="row">
+          <div className="mx-auto text-center">
+            <span className="float-left">
+              <img className="rounded-circle mr-3" src="img/faith_storey.jpg" width="100" />
+            </span>
+            <span className="float-right text-left">
+              <p className="mb-0 lead font-weight-bolder">Faith Storey</p>
+              <p className="mb-0">Senior Marketing Manager</p>
+              <p className="mb-0">SaaStr</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
       <div className="container-fluid text-center py-5 bg-primary text-white">
         <h2 className="display-md-4 font-weight-bolder pb-3">Need to build a SaaS landing page?</h2>
         <a className="btn btn-light btn-lg font-weight-bold text-primary" href="https://versoly.com" target="_blank">Try Versoly</a>
