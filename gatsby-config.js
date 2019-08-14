@@ -104,7 +104,7 @@ module.exports = {
           "/*": [
             // "X-Frame-Options: allow-from https://app.versoly.com",
             "X-Frame-Options: ALLOWALL",
-            "Content-Security-Policy: default-src *;"
+            // "Content-Security-Policy: default-src *;"
           ],
         },
         // mergeSecurityHeaders: true,
