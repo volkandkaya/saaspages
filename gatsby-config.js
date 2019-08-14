@@ -107,7 +107,7 @@ module.exports = {
             "Content-Security-Policy: default-src *;"
           ],
         },
-        mergeSecurityHeaders: true,
+        // mergeSecurityHeaders: true,
         mergeLinkHeaders: true,
         mergeCachingHeaders: true,
       },
