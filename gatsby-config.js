@@ -104,7 +104,7 @@ module.exports = {
           "/*": [
             "X-Frame-Options: allow-from https://app.versoly.com",
           ],
-        }
+        },
         mergeSecurityHeaders: true,
         mergeLinkHeaders: true,
         mergeCachingHeaders: true,
