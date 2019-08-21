@@ -14,11 +14,7 @@
       "#636efe",
       "#cad77f"
     ],
-    "category": "Design",
-    "performance": {
-      "desktop": 0.44,
-      "mobile": 0.08
-    }
+    "category": "Design"
   },
   {
     "siteName": "AeroLeads",
@@ -35,11 +31,7 @@
       "#8ab9dd",
       "#9b4d38"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.99,
-      "mobile": 0.67
-    }
+    "category": "Management"
   },
   {
     "siteName": "Algolia",
@@ -56,11 +48,7 @@
       "#237bbd",
       "#79bbfc"
     ],
-    "category": "Search Engine",
-    "performance": {
-      "desktop": 0.77,
-      "mobile": 0.39
-    }
+    "category": "Search Engine"
   },
   {
     "siteName": "Amplitude",
@@ -77,11 +65,7 @@
       "#c89e73",
       "#ffb906"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.72,
-      "mobile": 0.36
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Anaplan",
@@ -96,11 +80,7 @@
       "#ab1e80",
       "#ed5ead"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.56,
-      "mobile": 0.1
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Anvl",
@@ -117,11 +97,7 @@
       "#c5a9a6",
       "#d47104"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.73,
-      "mobile": 0.37
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "AppSumo",
@@ -138,11 +114,7 @@
       "#c07847",
       "#bfa7b3"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.28,
-      "mobile": 0.02
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "Asana",
@@ -159,11 +131,7 @@
       "#4bc4b0",
       "#64749e"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.92,
-      "mobile": 0.33
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "Atlassian",
@@ -180,11 +148,7 @@
       "#2d8dc9",
       "#30cfe8"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.6,
-      "mobile": 0.06
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "BirdEye",
@@ -200,11 +164,7 @@
       "#55a8fe",
       "#9ad19c"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.95,
-      "mobile": 0.53
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "Box",
@@ -221,11 +181,7 @@
       "#739e3f",
       "#7ca2c2"
     ],
-    "category": "Cloud Computing",
-    "performance": {
-      "desktop": 0.45,
-      "mobile": 0.03
-    }
+    "category": "Cloud Computing"
   },
   {
     "siteName": "Celonis",
@@ -242,11 +198,7 @@
       "#d2803c",
       "#ff1b41"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.97,
-      "mobile": 0.7
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "ChargeBee",
@@ -261,11 +213,7 @@
       "#d6a85b",
       "#ff7846"
     ],
-    "category": "Finance",
-    "performance": {
-      "desktop": 0.6,
-      "mobile": 0.3
-    }
+    "category": "Finance"
   },
   {
     "siteName": "CircleCI",
@@ -282,11 +230,7 @@
       "#60a5df",
       "#5fba46"
     ],
-    "category": "Cloud Computing",
-    "performance": {
-      "desktop": 0.88,
-      "mobile": 0.43
-    }
+    "category": "Cloud Computing"
   },
   {
     "siteName": "ClearBit",
@@ -300,11 +244,7 @@
       "#76e3c1",
       "#f67f05"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.78,
-      "mobile": 0.36
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "CloudFlare",
@@ -319,11 +259,7 @@
       "#8accf2",
       "#ce9d7e"
     ],
-    "category": "Security",
-    "performance": {
-      "desktop": 0.82,
-      "mobile": 0.51
-    }
+    "category": "Security"
   },
   {
     "siteName": "CollectiveHealth",
@@ -339,11 +275,7 @@
       "#d2b08c",
       "#d89145"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.69,
-      "mobile": 0.23
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "CompStak",
@@ -360,11 +292,7 @@
       "#c8a47d",
       "#f0a0aa"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.55,
-      "mobile": 0.2
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "ContentSquare",
@@ -381,11 +309,7 @@
       "#5cc6ff",
       "#77b93b"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.57,
-      "mobile": 0.13
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "CoreView",
@@ -399,11 +323,7 @@
       "#d28b48",
       "#ffbf71"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.81,
-      "mobile": 0.26
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "Cybsafe",
@@ -415,11 +335,7 @@
       "#449cfd",
       "#9d89a1"
     ],
-    "category": "Security",
-    "performance": {
-      "desktop": 0.52,
-      "mobile": 0.12
-    }
+    "category": "Security"
   },
   {
     "siteName": "Docker",
@@ -436,11 +352,7 @@
       "#317db9",
       "#56b6bd"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.93,
-      "mobile": 0.36
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "Drift",
@@ -457,11 +369,7 @@
       "#d3895d",
       "#f3de47"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.49,
-      "mobile": 0.14
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "DroneDeploy",
@@ -478,11 +386,7 @@
       "#439b78",
       "#4f8ed5"
     ],
-    "category": "IoT",
-    "performance": {
-      "desktop": 0.92,
-      "mobile": 0.43
-    }
+    "category": "IoT"
   },
   {
     "siteName": "Dropbox",
@@ -499,11 +403,7 @@
       "#739e3f",
       "#7ca2c2"
     ],
-    "category": "Cloud Computing",
-    "performance": {
-      "desktop": 0.5,
-      "mobile": 0.23
-    }
+    "category": "Cloud Computing"
   },
   {
     "siteName": "Everactive",
@@ -519,11 +419,7 @@
       "#b6af9f",
       "#dea57b"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.86,
-      "mobile": 0.47
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Exponea",
@@ -540,11 +436,7 @@
       "#6cbaf8",
       "#756b99"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.6,
-      "mobile": 0.17
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "Fireblocks",
@@ -556,11 +448,7 @@
       "#8c9099",
       "#ba7d4f"
     ],
-    "category": "Security",
-    "performance": {
-      "desktop": 0.95,
-      "mobile": 0.7
-    }
+    "category": "Security"
   },
   {
     "siteName": "FramerX",
@@ -577,11 +465,7 @@
       "#6798c0",
       "#8380f8"
     ],
-    "category": "Design",
-    "performance": {
-      "desktop": 0.96,
-      "mobile": 0.76
-    }
+    "category": "Design"
   },
   {
     "siteName": "FreshDesk",
@@ -598,11 +482,7 @@
       "#619bd6",
       "#88cedd"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.63,
-      "mobile": 0.13
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "FreshService",
@@ -619,11 +499,7 @@
       "#70a27f",
       "#7ab3c8"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.55,
-      "mobile": 0.24
-    }
+    "category": "Management"
   },
   {
     "siteName": "FreshTeam",
@@ -639,11 +515,7 @@
       "#ff8985",
       "#ffbc8f"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.84,
-      "mobile": 0.36
-    }
+    "category": "Management"
   },
   {
     "siteName": "Funnel",
@@ -660,11 +532,7 @@
       "#4079b9",
       "#4285f4"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.73,
-      "mobile": 0.29
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Gather",
@@ -681,11 +549,7 @@
       "#6fbfbf",
       "#90bc8d"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.58,
-      "mobile": 0.13
-    }
+    "category": "Management"
   },
   {
     "siteName": "GitPrime",
@@ -702,11 +566,7 @@
       "#e0a292",
       "#075dac"
     ],
-    "category": "Developer Tools",
-    "performance": {
-      "desktop": 0.92,
-      "mobile": 0.38
-    }
+    "category": "Developer Tools"
   },
   {
     "siteName": "Gitlab",
@@ -723,11 +583,7 @@
       "#9b5bad",
       "#a26f41"
     ],
-    "category": "Developer Tools",
-    "performance": {
-      "desktop": 0.49,
-      "mobile": 0.08
-    }
+    "category": "Developer Tools"
   },
   {
     "siteName": "GoodData",
@@ -743,11 +599,7 @@
       "#a57b58",
       "#cfa58b"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.6,
-      "mobile": 0.1
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Groove",
@@ -764,11 +616,7 @@
       "#34ace1",
       "#3ab194"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.96,
-      "mobile": 0.64
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "Gusto",
@@ -779,11 +627,7 @@
       "#9e5425",
       "#be5a4d"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.55,
-      "mobile": 0.42
-    }
+    "category": "Management"
   },
   {
     "siteName": "HashiCorp",
@@ -800,11 +644,7 @@
       "#8bd9be",
       "#a92064"
     ],
-    "category": "Cloud Computing",
-    "performance": {
-      "desktop": 0.95,
-      "mobile": 0.5
-    }
+    "category": "Cloud Computing"
   },
   {
     "siteName": "HelloSign",
@@ -819,11 +659,7 @@
       "#9f4f1b",
       "#ae7c8c"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.57,
-      "mobile": null
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "Hootsuite",
@@ -840,11 +676,7 @@
       "#9a755e",
       "#a4d068"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.83,
-      "mobile": 0.37
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "Hotjar",
@@ -861,11 +693,7 @@
       "#4079b9",
       "#4285f4"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.92,
-      "mobile": 0.55
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Hubspot",
@@ -881,11 +709,7 @@
       "#a59677",
       "#d8a187"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.6,
-      "mobile": 0.17
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "InVision",
@@ -897,11 +721,7 @@
       "#b0b1b0",
       "#ff8aa6"
     ],
-    "category": "Design",
-    "performance": {
-      "desktop": 0.23,
-      "mobile": 0.04
-    }
+    "category": "Design"
   },
   {
     "siteName": "Intercom",
@@ -918,11 +738,7 @@
       "#81b4ae",
       "#9e4502"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.56,
-      "mobile": 0.11
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "Iterable",
@@ -939,11 +755,7 @@
       "#81469a",
       "#9070e1"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.72,
-      "mobile": 0.14
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "JustWorks",
@@ -960,11 +772,7 @@
       "#89ace6",
       "#a17e82"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.17,
-      "mobile": 0.21
-    }
+    "category": "Management"
   },
   {
     "siteName": "Kissflow",
@@ -981,11 +789,7 @@
       "#4872a4",
       "#72a5ff"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.89,
-      "mobile": 0.44
-    }
+    "category": "Management"
   },
   {
     "siteName": "LeanData",
@@ -1001,11 +805,7 @@
       "#f58220",
       "#f6da39"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.42,
-      "mobile": 0.15
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "LogicMonitor",
@@ -1022,11 +822,7 @@
       "#5177a3",
       "#b0a3a1"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.8,
-      "mobile": 0.39
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Logikcull",
@@ -1040,11 +836,7 @@
       "#00dfad",
       "#0993b5"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.96,
-      "mobile": 0.83
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "Looker",
@@ -1061,11 +853,7 @@
       "#b8672f",
       "#e5a353"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.61,
-      "mobile": 0.19
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "MailChimp",
@@ -1082,11 +870,7 @@
       "#9a959c",
       "#ad6658"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.87,
-      "mobile": 0.41
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "MailerLite",
@@ -1103,11 +887,7 @@
       "#95bf48",
       "#997b5a"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.98,
-      "mobile": 0.68
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "MariaDB",
@@ -1122,11 +902,7 @@
       "#94bf87",
       "#7ad5f1"
     ],
-    "category": "Developer Tools",
-    "performance": {
-      "desktop": 0.5,
-      "mobile": 0.26
-    }
+    "category": "Developer Tools"
   },
   {
     "siteName": "Marketo",
@@ -1141,11 +917,7 @@
       "#0045a0",
       "#3d729c"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.88,
-      "mobile": 0.48
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "MeisterTask",
@@ -1162,11 +934,7 @@
       "#5381a0",
       "#64c7f5"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.98,
-      "mobile": 0.84
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "Moengage",
@@ -1183,11 +951,7 @@
       "#9dd29d",
       "#a05a33"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.7,
-      "mobile": 0.32
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "Monday",
@@ -1204,11 +968,7 @@
       "#997460",
       "#ae3704"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.89,
-      "mobile": 0.54
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "NewRelic",
@@ -1225,11 +985,7 @@
       "#a73eff",
       "#c64a2a"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.47,
-      "mobile": 0.17
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Officevibe",
@@ -1246,11 +1002,7 @@
       "#2730b3",
       "#719eb9"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.72,
-      "mobile": 0.2
-    }
+    "category": "Management"
   },
   {
     "siteName": "Optimove",
@@ -1267,11 +1019,7 @@
       "#997e02",
       "#e3ab9c"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.78,
-      "mobile": 0.34
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "PatriotSoftware",
@@ -1288,11 +1036,7 @@
       "#c4182e",
       "#d18845"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.58,
-      "mobile": 0.24
-    }
+    "category": "Management"
   },
   {
     "siteName": "Pipefy",
@@ -1309,11 +1053,7 @@
       "#c5aa98",
       "#2a5d9e"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.83,
-      "mobile": 0.4
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "Planplex",
@@ -1330,11 +1070,7 @@
       "#ae6c40",
       "#b4b4a9"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.98,
-      "mobile": 0.68
-    }
+    "category": "Management"
   },
   {
     "siteName": "Plivo",
@@ -1351,11 +1087,7 @@
       "#bc9e74",
       "#e8b384"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.68,
-      "mobile": 0.23
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "Postman",
@@ -1370,11 +1102,7 @@
       "#e4410b",
       "#f99d78"
     ],
-    "category": "Developer Tools",
-    "performance": {
-      "desktop": 0.98,
-      "mobile": 0.8
-    }
+    "category": "Developer Tools"
   },
   {
     "siteName": "Quickbooks",
@@ -1391,11 +1119,7 @@
       "#97989a",
       "#d08650"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.67,
-      "mobile": 0.26
-    }
+    "category": "Management"
   },
   {
     "siteName": "RelaHQ",
@@ -1412,11 +1136,7 @@
       "#727ab6",
       "#899f92"
     ],
-    "category": "Website Builder",
-    "performance": {
-      "desktop": 0.74,
-      "mobile": 0.31
-    }
+    "category": "Website Builder"
   },
   {
     "siteName": "Repsly",
@@ -1433,11 +1153,7 @@
       "#61b189",
       "#78b63c"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.61,
-      "mobile": 0.24
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Roomsy",
@@ -1454,11 +1170,7 @@
       "#80c88c",
       "#885afc"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.66,
-      "mobile": 0.26
-    }
+    "category": "Management"
   },
   {
     "siteName": "RouteHappy",
@@ -1473,11 +1185,7 @@
       "#72d0ff",
       "#a2a23b"
     ],
-    "category": "Search Engine",
-    "performance": {
-      "desktop": 0.76,
-      "mobile": 0.14
-    }
+    "category": "Search Engine"
   },
   {
     "siteName": "Rydoo",
@@ -1494,11 +1202,7 @@
       "#5e61da",
       "#685a9f"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.81,
-      "mobile": 0.37
-    }
+    "category": "Management"
   },
   {
     "siteName": "Salesforce",
@@ -1515,11 +1219,7 @@
       "#90bfd9",
       "#d2679d"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.23,
-      "mobile": 0.04
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "SaltStack",
@@ -1527,11 +1227,7 @@
     "colors": [
       "#02e4b0"
     ],
-    "category": "Security",
-    "performance": {
-      "desktop": 0.7,
-      "mobile": 0.29
-    }
+    "category": "Security"
   },
   {
     "siteName": "Sendinblue",
@@ -1545,11 +1241,7 @@
       "#bc8b6b",
       "#ffd206"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.5,
-      "mobile": 0.23
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "ServiceTitan",
@@ -1566,11 +1258,7 @@
       "#798a9f",
       "#77bad6"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.7,
-      "mobile": 0.17
-    }
+    "category": "Management"
   },
   {
     "siteName": "Shopify",
@@ -1587,11 +1275,7 @@
       "#9c7d73",
       "#c25703"
     ],
-    "category": "eCommerce",
-    "performance": {
-      "desktop": 0.97,
-      "mobile": 0.67
-    }
+    "category": "eCommerce"
   },
   {
     "siteName": "SimpleLegal",
@@ -1608,11 +1292,7 @@
       "#37a3bb",
       "#694fff"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.64,
-      "mobile": 0.22
-    }
+    "category": "Management"
   },
   {
     "siteName": "Simpo",
@@ -1627,11 +1307,7 @@
       "#c4ab9f",
       "#eb8384"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.98,
-      "mobile": 0.85
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "Sisense",
@@ -1645,11 +1321,7 @@
       "#d69f7d",
       "#ffdc50"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.47,
-      "mobile": 0.29
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Slack",
@@ -1666,11 +1338,7 @@
       "#c5a475",
       "#cd2454"
     ],
-    "category": "Communication",
-    "performance": {
-      "desktop": 0.9,
-      "mobile": 0.35
-    }
+    "category": "Communication"
   },
   {
     "siteName": "Socure",
@@ -1687,11 +1355,7 @@
       "#b88b86",
       "#f2b286"
     ],
-    "category": "Security",
-    "performance": {
-      "desktop": 0.97,
-      "mobile": 0.63
-    }
+    "category": "Security"
   },
   {
     "siteName": "StackAdapt",
@@ -1708,11 +1372,7 @@
       "#ef4224",
       "#02adaa"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.91,
-      "mobile": 0.41
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "Streak",
@@ -1729,11 +1389,7 @@
       "#f2b01c",
       "#fb7524"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.86,
-      "mobile": 0.44
-    }
+    "category": "Management"
   },
   {
     "siteName": "Stripe",
@@ -1750,11 +1406,7 @@
       "#5780c4",
       "#a2a9b9"
     ],
-    "category": "Finance",
-    "performance": {
-      "desktop": 0.88,
-      "mobile": 0.69
-    }
+    "category": "Finance"
   },
   {
     "siteName": "Tableau",
@@ -1771,11 +1423,7 @@
       "#9d807c",
       "#b95f12"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.7,
-      "mobile": 0.16
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Talentlms",
@@ -1792,11 +1440,7 @@
       "#ffd23d",
       "#74a2cf"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.93,
-      "mobile": 0.69
-    }
+    "category": "Management"
   },
   {
     "siteName": "Teem",
@@ -1813,11 +1457,7 @@
       "#3360a7",
       "#70b9f2"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.61,
-      "mobile": 0.2
-    }
+    "category": "Management"
   },
   {
     "siteName": "Termius",
@@ -1830,11 +1470,7 @@
       "#9198a9",
       "#e4a563"
     ],
-    "category": "Developer Tools",
-    "performance": {
-      "desktop": 0.94,
-      "mobile": 0.4
-    }
+    "category": "Developer Tools"
   },
   {
     "siteName": "Twilio",
@@ -1848,11 +1484,7 @@
       "#dfaba0",
       "#9150ae"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.73,
-      "mobile": 0.3
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "UltimateSoftwareGroup",
@@ -1869,11 +1501,7 @@
       "#64dcff",
       "#bca868"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.43,
-      "mobile": 0.23
-    }
+    "category": "Management"
   },
   {
     "siteName": "Upfluence",
@@ -1888,11 +1516,7 @@
       "#bd396c",
       "#c2a892"
     ],
-    "category": "Marketing",
-    "performance": {
-      "desktop": 0.49,
-      "mobile": 0.12
-    }
+    "category": "Marketing"
   },
   {
     "siteName": "Veeva",
@@ -1909,11 +1533,7 @@
       "#9a4f2c",
       "#bba067"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.95,
-      "mobile": 0.77
-    }
+    "category": "Management"
   },
   {
     "siteName": "Workday",
@@ -1930,11 +1550,7 @@
       "#8dbbf1",
       "#acacac"
     ],
-    "category": "Analytics",
-    "performance": {
-      "desktop": 0.36,
-      "mobile": 0.08
-    }
+    "category": "Analytics"
   },
   {
     "siteName": "Xsellco",
@@ -1951,11 +1567,7 @@
       "#d1903d",
       "#f51f05"
     ],
-    "category": "eCommerce",
-    "performance": {
-      "desktop": 0.97,
-      "mobile": 0.54
-    }
+    "category": "eCommerce"
   },
   {
     "siteName": "Zendesk",
@@ -1972,11 +1584,7 @@
       "#00239e",
       "#4577ef"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.72,
-      "mobile": 0.13
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "ZohoBooks",
@@ -1993,13 +1601,9 @@
       "#a84e09",
       "#ce8255"
     ],
-    "category": "Management",
-    "performance": {
-      "desktop": 0.88,
-      "mobile": 0.65
-    }
+    "category": "Management"
   },
-  {
+    {
     "siteName": "Airtable",
     "url": "https://airtable.com",
     "colors": [
@@ -2014,11 +1618,7 @@
       "#1bbdfc",
       "#52cd60"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.95,
-      "mobile": 0.56
-    }
+    "category": "Productivity"
   },
   {
     "siteName": "Crisp",
@@ -2034,15 +1634,11 @@
       "#aa7650",
       "#bda281"
     ],
-    "category": "Customer Service",
-    "performance": {
-      "desktop": 0.97,
-      "mobile": 0.75
-    }
+    "category": "Customer Service"
   },
   {
     "siteName": "Netlify",
-    "url": "https://www.netlify.com",
+    "url": "",
     "colors": [
       "#592ec1",
       "#fa4067",
@@ -2055,15 +1651,11 @@
       "#b8672f",
       "#e5a353"
     ],
-    "category": "Developer Tools",
-    "performance": {
-      "desktop": 1.0,
-      "mobile": 0.87
-    }
+    "category": "Developer Tools"
   },
   {
     "siteName": "Pipedrive",
-    "url": "https://www.pipedrive.com",
+    "url": "",
     "colors": [
       "#592ec1",
       "#fa4067",
@@ -2076,15 +1668,11 @@
       "#b8672f",
       "#e5a353"
     ],
-    "category": "Sales",
-    "performance": {
-      "desktop": 0.98,
-      "mobile": 0.48
-    }
+    "category": "Sales"
   },
   {
     "siteName": "Quip",
-    "url": "https://quip.com/",
+    "url": "",
     "colors": [
       "#592ec1",
       "#fa4067",
@@ -2097,10 +1685,6 @@
       "#b8672f",
       "#e5a353"
     ],
-    "category": "Productivity",
-    "performance": {
-      "desktop": 0.91,
-      "mobile": 0.43
-    }
+    "category": "Productivity"
   }
 ]

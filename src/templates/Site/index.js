@@ -20,6 +20,23 @@ const blockButtonStyle = {
   backgroundColor: '#fff'
 }
 
+const COLORS = {
+  fail: '#ff4e42',
+  average: '#ffa400',
+  pass: '#0cce6b'
+}
+
+const getPerfColor = (per) => {
+  per = per * 100
+  if (per > 89) {
+    return 'pass'
+  }
+  if (per > 49) {
+    return 'average'
+  }
+  return 'fail'
+}
+
 const Site = ({ data, location }) => {
   const [ss, setSS] = useState(null);
   const siteName = location.pathname.replace('/sites/', '').replace('/', '');
@@ -57,16 +74,28 @@ const Site = ({ data, location }) => {
               {site.colors.map(color => {
                 return <div key={color} className="col-md-2 col-sm-4 col-xs-6">
                     <div style={{
-                          height: '80px',
-                          background: '#ddd',
-                          borderRadius: '5px',
-                          position: 'relative',
-                          cursor: 'pointer',
-                          backgroundColor: color
+                      height: '80px',
+                      background: '#ddd',
+                      borderRadius: '5px',
+                      position: 'relative',
+                      cursor: 'pointer',
+                      backgroundColor: color
                     }}></div>
                     <p className="text-center pt-2"><b>{color}</b></p>
                   </div>
               })}
+            </div>
+          </div>
+          <div className="container mb-5">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="display-4 font-weight-bolder">Page Speed</h2>
+                <p>Using <a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a> by Google we work out the performance speed for desktop and mobile</p>
+
+                <h3 style={{color: COLORS[getPerfColor(site.performance.desktop)]}}>Desktop: {Math.round(site.performance.desktop * 100)} / 100</h3>
+
+                <h3 style={{color: COLORS[getPerfColor(site.performance.mobile)]}}>Mobile: {Math.round(site.performance.mobile * 100)} / 100</h3>
+              </div>
             </div>
           </div>
         </section>
@@ -179,6 +208,10 @@ export const siteQuery = graphql`
           siteName
           url
           colors
+          performance {
+            desktop
+            mobile
+          }
         }
       }
     }

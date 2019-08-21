@@ -26,8 +26,8 @@ class Roadmap extends React.Component {
                   <li>Login</li>
                   <li>Save as favorite</li>
                   <li>Request a site</li>
-                  <li>Filter by site</li>
-                  <li>Filter by industry</li>
+                  <li><s>Filter by site</s></li>
+                  <li><s>Filter by industry</s></li>
                   <li>Filter by funding (Bootstrap/VC)</li>
                   <li>Have multiple blocks of the same site from different time periods</li>
                   <li>Add relevant articles to each block</li>
