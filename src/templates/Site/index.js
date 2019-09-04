@@ -10,6 +10,9 @@ import Post from 'templates/Post'
 import Meta from 'components/Meta'
 import Layout from 'components/Layout'
 import Icon from 'components/Icon'
+import Google from 'components/Google'
+import OpenGraph from 'components/OpenGraph'
+import Twitter from 'components/Twitter'
 import ImageModal from 'components/ImageModal'
 import { blockToDisplayBlockName } from '../../constants/blocks'
 
@@ -95,6 +98,40 @@ const Site = ({ data, location }) => {
                 <h3 style={{color: COLORS[getPerfColor(site.performance.desktop)]}}>Desktop: {Math.round(site.performance.desktop * 100)} / 100</h3>
 
                 <h3 style={{color: COLORS[getPerfColor(site.performance.mobile)]}}>Mobile: {Math.round(site.performance.mobile * 100)} / 100</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="container mb-5">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="display-4 font-weight-bolder">Title, Description and Social Media</h2>
+                <div className="mb-4">
+                  <h3>Google</h3>
+                  <Google
+                    title={site.metatags.title}
+                    description={site.metatags.description}
+                    url={site.url}
+                  />
+                </div>
+                {site.metatags.og_title ? <div className="mb-4">
+                  <h3>Facebook (OpenGraph)</h3>
+                  <OpenGraph
+                    image={site.metatags.og_image}
+                    title={site.metatags.og_title}
+                    description={site.metatags.og_description}
+                    url={site.url}
+                  />
+                </div>: null }
+                {site.metatags.twitter_title ? <div>
+                  <h3>Twitter</h3>
+                  <Twitter
+                    image={site.metatags.twitter_image}
+                    title={site.metatags.twitter_title}
+                    description={site.metatags.twitter_description}
+                    url={site.url}
+                  />
+                </div> : null}
               </div>
             </div>
           </div>
@@ -211,6 +248,16 @@ export const siteQuery = graphql`
           performance {
             desktop
             mobile
+          }
+          metatags {
+            title
+            description
+            og_title
+            og_description
+            og_image
+            twitter_title
+            twitter_description
+            twitter_image
           }
         }
       }

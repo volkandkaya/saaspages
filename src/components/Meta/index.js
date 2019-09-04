@@ -5,11 +5,21 @@ import get from 'lodash/get'
 const Meta = ({ site, title }) => {
   const siteTitle = get(site, 'title')
   title = title ? `${title} | ${siteTitle}` : siteTitle
+  console.log(site);
   return (
     <Helmet
       title={title}
       meta={[
         { name: 'twitter:card', content: 'summary' },
+        {
+          name: 'twitter:image',
+          content: `${get(site, 'url')}/img/saaspages.jpeg`,
+        },
+        { name: 'twitter:title', content: title },
+        {
+          name: 'twitter:description',
+          content: get(site, 'description'),
+        },
         {
           name: 'twitter:site',
           content: `@${get(site, 'twitter')}`,
@@ -22,11 +32,11 @@ const Meta = ({ site, title }) => {
         },
         {
           property: 'og:url',
-          content: `${get(site, 'siteUrl')}/profile`,
+          content: `${get(site, 'url')}`,
         },
         {
           property: 'og:image',
-          content: `${get(site, 'siteUrl')}/img/profile.jpg`,
+          content: `${get(site, 'url')}/img/saaspages.jpeg`,
         },
       ]}
     />

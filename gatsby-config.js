@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'SaaS Pages',
     description: 'Screenshots, tips and tricks to build the best SaaS landing page that actually converts',
+    url: 'https://saaspages.xyz',
     siteUrl: 'https://saaspages.xyz',
     author: 'Volkan Kaya',
     twitter: 'volkandkaya',
