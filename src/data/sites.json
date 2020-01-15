@@ -608,13 +608,7 @@
   {
     "siteName": "Cybsafe",
     "url": "https://www.cybsafe.com",
-    "colors": [
-      "#5c9a96",
-      "#e8d87d",
-      "#b7b3b5",
-      "#449cfd",
-      "#9d89a1"
-    ],
+    "colors": ["#5c9a96", "#e8d87d", "#b7b3b5", "#449cfd", "#9d89a1"],
     "category": "Security",
     "performance": {
       "desktop": 0.52,
@@ -819,13 +813,7 @@
   {
     "siteName": "Fireblocks",
     "url": "https://www.fireblocks.com",
-    "colors": [
-      "#66bbf8",
-      "#ff5205",
-      "#175eb2",
-      "#8c9099",
-      "#ba7d4f"
-    ],
+    "colors": ["#66bbf8", "#ff5205", "#175eb2", "#8c9099", "#ba7d4f"],
     "category": "Security",
     "performance": {
       "desktop": 0.95,
@@ -1153,12 +1141,7 @@
   {
     "siteName": "Gusto",
     "url": "https://gusto.com",
-    "colors": [
-      "#f45c47",
-      "#a6b1b0",
-      "#9e5425",
-      "#be5a4d"
-    ],
+    "colors": ["#f45c47", "#a6b1b0", "#9e5425", "#be5a4d"],
     "category": "Management",
     "performance": {
       "desktop": 0.55,
@@ -1330,13 +1313,7 @@
   {
     "siteName": "InVision",
     "url": "https://www.invisionapp.com",
-    "colors": [
-      "#ff3265",
-      "#a39c7d",
-      "#575bb0",
-      "#b0b1b0",
-      "#ff8aa6"
-    ],
+    "colors": ["#ff3265", "#a39c7d", "#575bb0", "#b0b1b0", "#ff8aa6"],
     "category": "Design",
     "performance": {
       "desktop": 0.23,
@@ -2274,9 +2251,7 @@
   {
     "siteName": "SaltStack",
     "url": "https://www.saltstack.com",
-    "colors": [
-      "#02e4b0"
-    ],
+    "colors": ["#02e4b0"],
     "category": "Security",
     "performance": {
       "desktop": 0.7,
@@ -3141,6 +3116,73 @@
       "twitter:title": "Quip",
       "twitter:description": "Quip is a new way of collaborating that fuels a culture of action. Empower your employees to get things done faster with less email, and fewer meetings.",
       "twitter:image": "https://quip-cdn.com/NYZr99b1dMdUFsr_MRW1-Q"
+    }
+  },
+  {
+    "siteName": "Baremetrics",
+    "url": "https://baremetrics.com/",
+    "colors": ["#5f78ff", "#826ccf", "#a284ff"],
+    "category": "Analytics",
+    "performance": {
+      "desktop": 0.91,
+      "mobile": 0.43
+    },
+    "metatags": {
+      "title": "Baremetrics: Subscription Analytics & Insights for Stripe, Braintree, Recurly and more!",
+      "description": "Baremetrics is Subscription Analytics and Insights: One click and you get hundreds of valuable metrics and business insights!",
+      "og:title": "Baremetrics: Subscription Analytics & Insights for Stripe, Braintree, Recurly and more!",
+      "og:description": "Baremetrics is Subscription Analytics and Insights: One click and you get hundreds of valuable metrics and business insights!",
+      "og:image": "https://baremetrics-wordpress.imgix.net/20171017162906/Meta-Generic1.png",
+      "twitter:title": "Baremetrics: Subscription Analytics & Insights for Stripe, Braintree, Recurly and more!",
+      "twitter:description": "Baremetrics is Subscription Analytics and Insights: One click and you get hundreds of valuable metrics and business insights!",
+      "twitter:image": "https://baremetrics-wordpress.imgix.net/20171017162906/Meta-Generic1.png"
+    }
+  },
+  {
+    "siteName": "ChartMogul",
+    "url": "https://chartmogul.com/",
+    "colors": [
+      "#80b2b9",
+      "#4a919a",
+      "#b3b3b3",
+      "#385bab",
+      "#7be5c2",
+      "#f4d233"
+    ],
+    "category": "Analytics",
+    "performance": {
+      "desktop": 0.85,
+      "mobile": 0.32
+    },
+    "metatags": {
+      "title": " ChartMogul | Subscription Analytics and Revenue Reporting ",
+      "description": "SaaS & subscription reporting, analytics & metrics for Stripe, Braintree, Chargify, Recurly and PayPal. In one click get your MRR, LTV, churn rate, cohort analysis and more.",
+      "og:title": "ChartMogul | Subscription Analytics and Revenue Reporting",
+      "og:description": "SaaS & subscription reporting, analytics & metrics for Stripe, Braintree, Chargify, Recurly and PayPal. In one click get your MRR, LTV, churn rate, cohort analysis and more.",
+      "og:image": "https://chartmogul.com/assets/img/share-image-91014e39ad.png",
+      "twitter:title": "ChartMogul | Subscription Analytics and Revenue Reporting",
+      "twitter:description": "SaaS & subscription reporting, analytics & metrics for Stripe, Braintree, Chargify, Recurly and PayPal. In one click get your MRR, LTV, churn rate, cohort analysis and more.",
+      "twitter:image": "https://chartmogul.com/assets/img/share-image-91014e39ad.png"
+    }
+  },
+  {
+    "siteName": "ProfitWell",
+    "url": "https://www.profitwell.com/",
+    "colors": ["#aab0b5", "#35a99d", "#a6907d"],
+    "category": "Analytics",
+    "performance": {
+      "desktop": 0.49,
+      "mobile": 0.24
+    },
+    "metatags": {
+      "title": "Subscription business financial metrics. Absolutely free.",
+      "description": "ProfitWell subscription software helps you achieve faster recurring revenue growth. Pricing and retention solutions designed for subscription and SaaS products.",
+      "og:title": "Subscription business financial metrics. Absolutely free.",
+      "og:description": "ProfitWell subscription software helps you achieve faster recurring revenue growth. Pricing and retention solutions designed for subscription and SaaS products.",
+      "og:image": null,
+      "twitter:title": "Subscription business financial metrics. Absolutely free.",
+      "twitter:description": "ProfitWell subscription software helps you achieve faster recurring revenue growth. Pricing and retention solutions designed for subscription and SaaS products.",
+      "twitter:image": null
     }
   }
 ]

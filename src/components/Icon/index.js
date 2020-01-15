@@ -13,7 +13,7 @@ import {
   faPhp,
   faReact,
   faTwitter,
-  faVuejs
+  faVuejs,
 } from '@fortawesome/free-brands-svg-icons'
 
 //blocks
@@ -35,20 +35,21 @@ import {
   faAngleRight,
   faQuoteLeft,
   faQuoteRight,
-
+  faTimes,
+  faCheck,
 } from '@fortawesome/free-solid-svg-icons'
 
-  // 'Navbars': 'bars',
-  // 'Headers': 'pager',
-  // 'Clients': 'hands-helping',
-  // 'Call to action': 'fist-raised',
-  // 'Features': 'clipboard-list',
-  // 'Steps': 'list-ol',
-  // 'Team': 'users',
-  // 'Pricing': 'dollar-sign',
-  // 'Faq': 'question',
-  // 'Testimonials': 'user-check',
-  // 'Footers': 'window-minimize'
+// 'Navbars': 'bars',
+// 'Headers': 'pager',
+// 'Clients': 'hands-helping',
+// 'Call to action': 'fist-raised',
+// 'Features': 'clipboard-list',
+// 'Steps': 'list-ol',
+// 'Team': 'users',
+// 'Pricing': 'dollar-sign',
+// 'Faq': 'question',
+// 'Testimonials': 'user-check',
+// 'Footers': 'window-minimize'
 
 import './style.scss'
 
@@ -82,7 +83,8 @@ library.add(
   faAngleRight,
   faQuoteLeft,
   faQuoteRight,
-
+  faTimes,
+  faCheck
 )
 
 const Icon = ({ prefix, name, className }) => (
