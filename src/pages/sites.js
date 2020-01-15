@@ -17,11 +17,10 @@ import CategoriesSelect from 'components/CategoriesSelect'
 import { blockToDisplayBlockName } from '../constants/blocks'
 import { getCategories } from '../utils/helpers'
 
-
 const blockButtonStyle = {
   height: '200px',
   widht: '150px',
-  backgroundColor: '#fff'
+  backgroundColor: '#fff',
 }
 
 const Sites = ({ data, location, navigate }) => {
@@ -41,7 +40,7 @@ const Sites = ({ data, location, navigate }) => {
   })
 
   allQueryCategories = Object.keys(allQueryCategories).map(key => {
-    return {value: key, label: allQueryCategories[key]}
+    return { value: key, label: allQueryCategories[key] }
   })
   allQueryCategories = sortBy(allQueryCategories, 'value')
 
@@ -59,8 +58,7 @@ const Sites = ({ data, location, navigate }) => {
     if (qC.length === 0 && queryCategories.length > 0) {
       setQC(queryCategories)
     }
-  }, []);
-
+  }, [])
 
   useEffect(() => {
     if (!isEqual(qC, queryCategories)) {
@@ -71,7 +69,7 @@ const Sites = ({ data, location, navigate }) => {
       navigate(path)
       queryCategories = qC
     }
-  });
+  })
 
   let filteredSites = sites
   if (queryCategories.length > 0) {
@@ -86,69 +84,85 @@ const Sites = ({ data, location, navigate }) => {
   }
 
   const screenshots = data.allScreenshotsJson.edges.filter(ss => {
-    const {blockName, siteName} = ss.screenshotData
-    return blockName === 'Headers' && filteredSiteNames.includes(siteName) && siteName.toLowerCase().includes(company.toLowerCase())
+    const { blockName, siteName } = ss.screenshotData
+    return (
+      blockName === 'Headers' &&
+      filteredSiteNames.includes(siteName) &&
+      siteName.toLowerCase().includes(company.toLowerCase())
+    )
   })
 
   const handleCompanyChange = e => {
     setCompany(e.target.value)
   }
 
+  console.log(screenshots)
+
   return (
     <Layout location={location} blocks={data_blocks}>
-      <Meta site={get(data, 'site.meta')} title="Sites"/>
-      {ss ? <ImageModal
+      <Meta site={get(data, 'site.meta')} title="Sites" />
+      {ss ? (
+        <ImageModal
           ss={ss}
           onClose={() => setSS(null)}
           screenshots={screenshots}
           setSS={setSS}
-          filterName='siteName'
-          /> : null}
+          filterName="siteName"
+        />
+      ) : null}
       <section className="mt-5">
-          <div className="container mt-5 pt-5">
-            <h1 className="display-3 text-primary font-weight-bold">Sites</h1>
-            <p className="text-muted">All sites on SaaS Pages</p>
-          </div>
-        </section>
+        <div className="container mt-5 pt-5">
+          <h1 className="display-3 text-primary font-weight-bold">Sites</h1>
+          <p className="text-muted">All sites on SaaS Pages</p>
+        </div>
+      </section>
 
       <section id="screenshots" className="bg-light-blue pt-5">
-          <div className="container">
-            <div className="row mb-5">
-              <div className="col-md-6">
-                <h3>Search by Company</h3>
-                <input className="form-control" value={company} placeholder="Company Name" onChange={handleCompanyChange}/>
-              </div>
-              <div className="col-md-6">
-                <h3>Filter by Categories</h3>
-                <CategoriesSelect
-                  options={allQueryCategories}
-                  queryCategories={queryCategories}
-                  setQC={setQC}
-                />
-              </div>
+        <div className="container">
+          <div className="row mb-5">
+            <div className="col-md-6">
+              <h3>Search by Company</h3>
+              <input
+                className="form-control"
+                value={company}
+                placeholder="Company Name"
+                onChange={handleCompanyChange}
+              />
             </div>
-            <div className="row">
-              {screenshots.map(ss => {
-                const {siteName, date, blockName, imageName} = ss.screenshotData
-                const ss_url = `/img/ss/${siteName}/${date}/${blockName}/${imageName}`
-                return (
-                  <div key={ss_url} className="col-md-6" onClick={() => setSS(ss)}>
-                    <Link to={`/sites/${siteName.toLowerCase()}`}>
-                      <h3>{siteName}</h3>
-                    </Link>
-                    <LazyLoadImage
-                      className="img-pulse"
-                      alt={`${siteName} ${blockToDisplayBlockName[blockName]} Block`}
-                      src={`${ss_url}*700.jpg`}
-                      placeholderSrc={`${ss_url}*blur.jpg`}
-                    />
-                  </div>
-                )
-              })}
+            <div className="col-md-6">
+              <h3>Filter by Categories</h3>
+              <CategoriesSelect
+                options={allQueryCategories}
+                queryCategories={queryCategories}
+                setQC={setQC}
+              />
             </div>
           </div>
-        </section>
-
+          <div className="row">
+            {screenshots.map(ss => {
+              const { siteName, date, blockName, imageName } = ss.screenshotData
+              const ss_url = `/img/ss/${siteName}/${date}/${blockName}/${imageName}`
+              return (
+                <div
+                  key={ss_url}
+                  className="col-md-6"
+                  onClick={() => setSS(ss)}
+                >
+                  <Link to={`/sites/${siteName.toLowerCase()}`}>
+                    <h3>{siteName}</h3>
+                  </Link>
+                  <LazyLoadImage
+                    className="img-pulse"
+                    alt={`${siteName} ${blockToDisplayBlockName[blockName]} Block`}
+                    src={`${ss_url}*700.jpg`}
+                    placeholderSrc={`${ss_url}*blur.jpg`}
+                  />
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }
@@ -169,13 +183,7 @@ export const sitesQuery = graphql`
     }
     remark: allMarkdownRemark(
       sort: { fields: [frontmatter___title], order: DESC }
-      filter: {
-        frontmatter: {
-          layout: {
-            in: ["block"]
-          }
-        }
-      }
+      filter: { frontmatter: { layout: { in: ["block"] } } }
     ) {
       blocks: edges {
         block: node {
